@@ -1,0 +1,55 @@
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_01.gif" width="612" height="109" alt="" border="0" style="display: block;">
+  </a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_02.gif" width="612" height="157" alt="" border="0" style="display: block;">
+  </a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_03.gif" width="31" height="825" alt="" border="0" style="display: block;">
+  </a>
+</td>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_04.gif" width="549" height="825" alt="" border="0" style="display: block;">
+  </a>
+</td>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_05.gif" width="32" height="825" alt="" border="0" style="display: block;">
+  </a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_06.gif" width="612" height="356" alt="" border="0" style="display: block;">
+  </a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+  <a href="" title="">
+    <img src="images/01_emkt-brooks-abril_Outono_07.jpg" width="612" height="767" alt="" border="0" style="display: block;">
+  </a>
+</td>
+</tr>
+</table>

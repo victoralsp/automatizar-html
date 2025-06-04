@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://agenciafg.com.br/wp-content/uploads/2025/05/fg-01-favicon_144px.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query-style.css">
+    <title>Acelerar criação de e-mail marketing</title>
+</head>
+
+<body>
+    <div id="bg-color-header">
+    <header>
+            <a href="https://agenciafg.com.br/" target="_blank" rel="noreferrer"><img src="imagens/logo-fg.png" alt="Logo FG"></a>
+            <h1>Automatizar criação do HTML</h1>
+            <a href="https://agenciafg.com.br/contato/" target="_blank" rel="noreferrer" id="btn-contato">Contato</a>
+        </header>
+    </div>
+    <main>
+        <section id="sec-automatizacao">
+            <article class="article-container">
+                <h3>HTML Original (do Photoshop)</h3>
+                <textarea id="htmlInput" placeholder="Cole seu HTML aqui..." oninput="autoFormat()"></textarea>
+                <label for="linkCount">Número de links:</label>
+                <input type="number" id="linkCount" min="1" />
+                <button onclick="generateFields()">Gerar Inputs</button>
+            </article>
+            <article class="article-container" id="article-links-alt">
+                <div>
+                    <h3>Links e Alt/Title</h3>
+                    <div class="inputs" id="fieldsContainer"></div>
+                </div>
+                <button onclick="updateHTML()">Atualizar HTML</button>
+            </article>
+            <article class="article-container">
+                <h3>HTML Atualizado</h3>
+                <textarea id="updatedHTML" placeholder="O HTML atualizado aparecerá aqui..."></textarea>
+                <button onclick="copiarHTML()">Copiar HTML</button>
+                <span id="msg" style="margin-left: 10px; color: green;"></span>
+            </article>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

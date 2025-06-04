@@ -1,0 +1,17 @@
+@media (width <=768px) {
+    header {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+@media (width <= 1535px) {
+    body {
+        height: 100vh;
+        background: linear-gradient(270.13deg, #f1e4ed 0%, #fbf1f2 100%);
+    }
+
+    main {
+        margin: 3em 0;
+    }
+}

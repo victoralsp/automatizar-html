@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #f5eaf2ec, #f5eaf25b), url(imagens/BG_BRANCO_LEVE.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    overflow-x: hidden;
+}
+
+#bg-color-header {
+    background: linear-gradient(270.13deg, #1B0A03 0%, #7D2038 100%);
+    box-shadow: 0px 2px 4px 0px rgba(29, 14, 15, .2);
+    padding: 1em 0;
+    width: 100vw;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        img {
+            width: 150px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        #btn-contato {
+            background-image: linear-gradient(270.13deg, #f91668 0%, #ff1c03 100%);
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            padding: .7em 3em;
+        }
+    }
+}
+
+#sec-automatizacao {
+    display: flex;
+    height: calc(100vh - 120px);
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    width: 90%;
+    max-width: 1500px;
+
+    .article-container {
+        flex: 1 1 450px; 
+        max-width: 100%;
+        min-width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        background-color: #fff;
+        box-shadow: 0px 5px 10px #0000001f;
+        border-radius: 5px;
+
+    h3 {
+        color: #f91669;
+        margin-bottom: 1em;
+    }
+
+    label {
+        padding: 1em 0 .5em 0;
+        color: #f91669;
+    }
+
+    #linkCount {
+        height: 4em;
+        padding: 0 1em;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+        border-radius: 3px;
+    }
+
+    button {
+        padding: 1em;
+        margin: 1em 0;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-image: linear-gradient(270.13deg, #f91668 0%, #ff1c03 100%);
+        color: #fff;
+    }
+
+    textarea {
+        height: 500px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.212);
+        padding: 1em;
+        color: #000;
+        resize: none;
+    }
+    }
+}
+
+#article-links-alt {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+    #fieldsContainer {
+        overflow-y: scroll;
+        height: 350px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        gap: .5em;
+        margin-right: .5em;
+    }
+
+    input {
+        width: 50%;
+        padding: .5em;
+        margin: .3em 0;
+        border: 1px solid rgba(0, 0, 0, 0.212);
+        border-radius: 3px;
+    }
+}
