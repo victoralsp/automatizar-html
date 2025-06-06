@@ -63,7 +63,7 @@ body {
     max-width: 1500px;
 
     .article-container {
-        flex: 1 1 450px; 
+        flex: 1 1 300px; 
         max-width: 100%;
         min-width: 300px;
         height: 500px;
