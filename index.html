@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://agenciafg.com.br/wp-content/uploads/2025/05/fg-01-favicon_144px.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://agenciafg.com.br/wp-content/uploads/2025/05/fg-01-favicon_144px.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query-style.css">
     <title>Acelerar criação de e-mail marketing</title>
@@ -12,8 +13,9 @@
 
 <body>
     <div id="bg-color-header">
-    <header>
-            <a href="https://agenciafg.com.br/" target="_blank" rel="noreferrer"><img src="imagens/logo-fg.png" alt="Logo FG"></a>
+        <header>
+            <a href="https://agenciafg.com.br/" target="_blank" rel="noreferrer"><img src="imagens/logo-fg.png"
+                    alt="Logo FG"></a>
             <h1>Automatizar criação do HTML</h1>
             <a href="https://agenciafg.com.br/contato/" target="_blank" rel="noreferrer" id="btn-contato">Contato</a>
         </header>
@@ -23,17 +25,49 @@
             <article class="article-container">
                 <h3>HTML Original (do Photoshop)</h3>
                 <textarea id="htmlInput" placeholder="Cole seu HTML aqui..." oninput="autoFormat()"></textarea>
-                <label for="linkCount">Número de links:</label>
+
+                <label for="clientSelect">Cliente:</label>
+                <select id="clientSelect">
+                    <option value="">-- Sem Cliente (Apenas Miolo) --</option>
+                </select>
+
+
+
+                <div style="margin: 10px 0; display: flex; gap: 15px; align-items: center;">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" id="replaceHeader" style="width: auto; margin-right: 5px;">
+                        Trocar Header Antigo?
+                    </label>
+
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" id="replaceFooter" style="width: auto; margin-right: 5px;">
+                        Trocar Footer Antigo?
+                    </label>
+                </div>
+
+                <div style="margin-top: 15px; border-top: 1px solid #ccc; padding-top: 15px;">
+                    <label>Configurações do Disparo:</label>
+
+                    <input type="text" id="emailSubject" placeholder="Assunto do E-mail (Title)"
+                        style="width: 100%; margin-bottom: 10px; padding: 8px;">
+
+                    <input type="text" id="emailPreheader" placeholder="Sub-assunto (Preheader)"
+                        style="width: 100%; margin-bottom: 10px; padding: 8px;">
+                </div>
+
+                <label for="linkCount">Número de links (do miolo):</label>
                 <input type="number" id="linkCount" min="1" />
                 <button onclick="generateFields()">Gerar Inputs</button>
             </article>
+
             <article class="article-container" id="article-links-alt">
                 <div>
-                    <h3>Links e Alt/Title</h3>
+                    <h3>Links, Alt/Title e Imagens (Miolo)</h3>
                     <div class="inputs" id="fieldsContainer"></div>
                 </div>
                 <button onclick="updateHTML()">Atualizar HTML</button>
             </article>
+
             <article class="article-container">
                 <h3>HTML Atualizado</h3>
                 <textarea id="updatedHTML" placeholder="O HTML atualizado aparecerá aqui..."></textarea>
@@ -42,6 +76,9 @@
             </article>
         </section>
     </main>
+
+    <script src="templates.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>
