@@ -501,6 +501,574 @@ const clientData = {
 
   `
 },
+"BROOKSFIELD": {
+  header: `
+	<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://www.brooksfield.com.br" href="https://www.brooksfield.com.br">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1axh"
+              width="600"
+              height="104"
+              alt="https://www.brooksfield.com.br"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+  `,
+  footer: `
+	<!-- footer  -->
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0" style=" background-color: #fff;">
+		<tr>
+			<td>
+				<a href="https://www.brooksfield.com.br/" title="Confira todo o estilo Brooksfield"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/em6" width="600" height="54" alt="Confira todo o estilo Brooksfield" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.brooksfield.com.br/adulto" title="Adulto"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7n" width="121" height="83" alt="Adulto" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.brooksfield.com.br/alfaiataria" title="Alfaiataria"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7o" width="120" height="83" alt="Alfaiataria" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://brooksfield.com.br/calcados" title="Calçados"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7p" width="109" height="83" alt="Calçados" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.brooksfield.com.br/acessorios" title="Acessórios"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7q" width="126" height="83" alt="Acessórios" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.brooksfieldjunior.com.br/" title="Junior"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7r" width="124" height="83" alt="Junior" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.brooksfield.com.br/" title="Brooksfield"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1ajf" width="600" height="auto" alt="Brooksfield" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.brooksfield.com.br/institucional" title="Conheça a Brooksfield"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ba4" width="297" height="151" alt="Conheça a Brooksfield" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.brooksfield.com.br/onde-encontrar" title="Conheça nossas lojas"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ba5" width="303" height="151" alt="Conheça nossas lojas" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.instagram.com/brooksfieldbr/" title="Intagram"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ba6" width="300" height="56" alt="Intagram" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.facebook.com/BrooksfieldBR/" title="Facebook"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ba7" width="300" height="56" alt="Facebook" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+		<tr bgcolor="#ffffff">
+			<td width="600" height="104" alt="Intimate" style="text-align: center; font-size: 11px;">
+				<p style="font-family:Arial Regular; color:#878787; line-height: 14px;">
+					BROOKSFIELD | Avenida Roque Petroni Júnior, 999, 2º Andar, Vila Gertrudes | 04707-910 - São Paulo -
+					SP<br>
+					CNPJ: 47.100.110/0064-72 | Insc. Estadual: 117.229.530.112 | SAC: 0800 0420442.<br>
+					<br>
+					Preços e condições de pagamento exclusivos para compras via Internet. Fica garantida a empresa a
+					<br>
+					eventual retificação das ofertas e erros de digitação que possam ter sido veiculados.<br>
+					<br>
+					Condições e promoções podem ser alteradas sem aviso prévio.<br>
+					<br>
+					Válido até durarem os estoques.
+			</td>
+		</tr>
+	</table>
+	<div style="text-align: center; border: 0;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+   
+  </body>
+</html>
+
+  `
+},
+"GUESS": {
+  header: `
+	<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/" title="Guess"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r6j" width="175" height="97"
+						alt="Guess" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.guessbrasil.com.br/feminino" title="Feminino"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r6k" width="155" height="97"
+						alt="Feminino" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.guessbrasil.com.br/masculino" title="Masculino"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r6l" width="138" height="97"
+						alt="Masculino" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.guessbrasil.com.br/bolsas" title="Bolsas"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r6m" width="132" height="97"
+						alt="Bolsas" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<!-- main  -->
+  `,
+  footer: `
+	<!-- footer  -->
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br" title="Shop now">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1077" width="600" height="103" alt="Shop now" border="0"
+						style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/" title="Cashback"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vwi" width="600" height="107"
+						alt="Cashback" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a title="https://www.guessbrasil.com.br/preview-spring" href="https://www.guessbrasil.com.br/preview-spring">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yw" width="126" height="136" alt="https://www.guessbrasil.com.br/preview-spring" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a title="https://www.guessbrasil.com.br/acessorios" href="https://www.guessbrasil.com.br/acessorios">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yx" width="135" height="136" alt="https://www.guessbrasil.com.br/acessorios" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a title="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft" href="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yy" width="109" height="136" alt="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a title="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft" href="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yz" width="105" height="136" alt="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a title="https://www.guessbrasil.com.br/sale" href="https://www.guessbrasil.com.br/sale">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15z0" width="125" height="136" alt="https://www.guessbrasil.com.br/sale" border="0"
+						style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/institucional/onde-encontrar" title="Encontre uma loja"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r70" width="224" height="181"
+						alt="Encontre uma loja" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.guessbrasil.com.br/institucional/nossa-historia" title="Sobre nós"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r71" width="155" height="181"
+						alt="Sobre nós" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&nd=1" title="Spotify"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r72" width="221" height="181"
+						alt="Spotify" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/" title="Guess - Frete"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/sqa" width="600" height="123"
+						alt="Guess - Frete" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.instagram.com/guessbrasil/" title="Instagram"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r74" width="220" height="137"
+						alt="Instagram" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&nd=1" title="Spotify"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r75" width="79" height="137"
+						alt="Spotify" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.youtube.com/user/GUESSincTV" title="YouTube"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r76" width="78" height="137"
+						alt="YouTube" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.facebook.com/GUESSBrazil" title="Facebook"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r77" width="223" height="137"
+						alt="Facebook" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/fale-conosco" title="Entre em contato"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r78" width="221" height="147"
+						alt="Entre em contato" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.guessbrasil.com.br/" title="Atualizar cadastro"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r79" width="187" height="147"
+						alt="Atualizar cadastro" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="%Link:Unsubscribe%" title="Desinscrever"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r7a" width="192" height="147"
+						alt="Desinscrever" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.guessbrasil.com.br/" title="GUESS"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ura" width="600" height="126"
+						alt="Guess - Frete" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+		<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  </body>
+</html>
+
+	
+  </body>
+</html>
+
+  `
+},
+"RDS": {
+  header: `
+	<html>
+  <head>
+    <title>
+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://rdsconsultoriadeimoveis.com.br/" title="RDS"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yh" width="326" height="85"
+						alt="RDS" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.facebook.com/rdsconsultoriadeimoveis?view_public_for=122201776362255"
+					title="facebook"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yi"
+						width="223" height="85" alt="Facebook" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.instagram.com/rdsconsultoriadeimoveis/" title="instagram"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yj" width="45" height="85"
+						alt="instagram" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.linkedin.com/company/rdsconsultoria-de-im%C3%B3veis/" title="linkedin"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yk" width="56" height="85"
+						alt="Linkedin" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://rdsconsultoriadeimoveis.com.br/imoveis" title="Imóveis"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yl" width="126" height="49"
+						alt="Imóveis" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://rdsconsultoriadeimoveis.com.br/" title="SERVIÇOS"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9ym" width="142" height="49"
+						alt="SERVIÇOS" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://rdsconsultoriadeimoveis.com.br/anuncie" title="Anuncie"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yn" width="136" height="49"
+						alt="Anuncie" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://blog.rdsconsultoriadeimoveis.com.br/" title="Blog"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yo" width="113" height="49"
+						alt="Blog" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://rdsconsultoriadeimoveis.com.br/contato" title="contato"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/9yp" width="133" height="49"
+						alt="contato" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<!-- main  -->
+  `,
+  footer: `
+	 <!-- footer  -->
+	<table border="0" cellpadding="0" cellspacing="0" align="center" width="fit-content" style="background-color: #303030; margin: 0 auto;">
+  <tr>
+    <td align="center" style="padding: 20px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="650" style="background-color: #303030;">
+        <tr>
+          <td valign="top" style="padding: 20px;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 0 0 0 40px;">
+                  <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15ku" alt="Ícone de localização" width="20" height="20" style="vertical-align: middle;">
+                </td>
+                <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #fff;">
+                  ONDE ESTAMOS
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-top: 10px; padding: 10px 40px 0; font-family: Arial, sans-serif; font-size: 14px; color: #dddddd; line-height: 1.5;">
+                  Av. Antônio Piranga,<br>
+                  649/655, Centro<br>
+                  Diadema-SP<br>
+                  CEP: 09911-160
+                </td>
+              </tr>
+            </table>
+          </td>
+
+          <td valign="top" style="padding: 20px;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding-right: 10px;">
+                  <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15kv" alt="Ícone de telefone" width="20" height="20" style="vertical-align: middle;">
+                </td>
+                <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #fff;">
+                  TELEFONE
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-top: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #dddddd;">
+                  (11) 2668-2030
+                </td>
+              </tr>
+            </table>
+          </td>
+
+          <td valign="top" style="padding: 20px;">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding-right: 10px;">
+                  <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15kw" alt="Ícone do WhatsApp" width="20" height="20" style="vertical-align: middle;">
+                </td>
+                <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #fff;">
+                  WHATSAPP
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-top: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #dddddd;">
+                  (11) 97424-2030
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr style="color:#7f7f7f; font-family: arial regular; font-size:15px; text-align:center;" bgcolor="#252525">
+				<td width="50" height="88"></td>
+				<td width="550" height="88">
+					<p>© 2025 RDS Consultoria de Imóveis.<br>
+						Todos os direitos reservados.</p>
+				</td>
+
+				<td width="50" height="88"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não quer mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
+"VERTIX": {
+  header: `
+	
+  `,
+  footer: `
+	 <!-- footer  -->
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.vertixprofessional.com.br/" title="Vertix
+">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/11tz" width="600" height="209" alt="Vertix
+"
+						border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+		<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+
+</body>
+
+</html>
+  `
+},
+"RICCA": {
+  header: ``,
+  footer: `
+	 	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.mundoricca.com.br/" title="mundo-ricca">
+					<img src="http://fgholding.com.br/emkt/Ricca/29.05.2025/7.png" width="600" height="222" alt="mundo-ricca"
+						border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+		<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
 
 "": {
   header: ``,
