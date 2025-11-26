@@ -62,11 +62,16 @@ body {
     width: 90%;
     max-width: 1500px;
 
+    input, select {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.212);
+    }
+
     .article-container {
         flex: 1 1 300px; 
         max-width: 100%;
         min-width: 300px;
-        height: 500px;
+        height: 80%;
         display: flex;
         flex-direction: column;
         padding: 1em;
@@ -74,13 +79,51 @@ body {
         box-shadow: 0px 5px 10px #0000001f;
         border-radius: 5px;
 
+
+    #clientSelect {
+        padding: .5em;
+        cursor: pointer;
+    }
+    
+    #containerSelecaoHeaderFooter {
+        margin: .2em 0 1em 0;
+        display: flex;
+        justify-content: space-between;
+        
+        .labelSelecaoHeaderFooter {
+            cursor: pointer;
+            padding: 0;
+            font-size: .9em;
+            display: flex;
+            gap: .5em;
+        }
+    }
+
+    #containerConfigDisparo {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin: 0 0 1em 0;
+        }
+
+        input {
+            margin-bottom: .8em;
+            padding: .5em;
+        }
+    }
+
     h3 {
         color: #f91669;
         margin-bottom: 1em;
     }
 
+    #htmlInput {
+        height: 300px !important;
+    }
+
     label {
-        padding: 1em 0 .5em 0;
+        margin: 1em 0 .5em 0;
         color: #f91669;
     }
 
@@ -104,8 +147,8 @@ body {
     }
 
     textarea {
-        height: 500px;
         border-radius: 5px;
+        height: 500px;
         border: 1px solid rgba(0, 0, 0, 0.212);
         padding: 1em;
         color: #000;
@@ -139,3 +182,4 @@ body {
         border-radius: 3px;
     }
 }
+
