@@ -1190,7 +1190,137 @@ const clientData = {
 
   `
 },
+"FERMÁQUINAS": {
+  header: `
+	<html>
+  <head>
+    <title> Última semana do Esquenta Black! 🖤</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
 
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.fermaquinas.com.br/" title="Fermáquinas">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1964" width="650" height="auto" alt="Fermáquinas" border="0"
+						style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="650" align="center" style="background-color: #0a217e; font-family: Arial, sans-serif;">
+  <tr>
+    <td align="center" style="padding: 6px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td align="center" valign="center" style="padding: 0 5px;">
+            <a href="https://www.fermaquinas.com.br/ferramentas-manuais" target="_blank" style="text-decoration: none; color: #ffffff; font-size: 13px; line-height: 1.3;">
+              Ferramentas<br>Manuais
+            </a>
+          </td>
+          <td align="center" valign="center" style="padding: 0 5px;">
+            <a href="https://www.fermaquinas.com.br/ferramentas-eletricas-e-maquinas" target="_blank" style="text-decoration: none; color: #ffffff; font-size: 13px; line-height: 1.3;">
+              Elétricas<br>e Máquinas
+            </a>
+          </td>
+          <td align="center" valign="center" style="padding: 0 5px;">
+            <a href="https://www.fermaquinas.com.br/ferramentas-pneumaticas" target="_blank" style="text-decoration: none; color: #ffffff; font-size: 13px; line-height: 1.3;">
+              Pneumáticas
+            </a>
+          </td>
+          <td align="center" valign="center" style="padding: 0 5px;">
+            <a href="https://www.fermaquinas.com.br/ferramentas-automotivas-especiais" target="_blank" style="text-decoration: none; color: #ffffff; font-size: 13px; line-height: 1.3;">
+              Ferramentas<br>Automoticas Especiais
+            </a>
+          </td>
+          <td align="center" valign="center" style="padding: 0 5px;">
+            <a href="https://www.fermaquinas.com.br/equipamento-auto-center" target="_blank" style="text-decoration: none; color: #ffffff; font-size: 13px; line-height: 1.3;">
+              Equipamento<br>Auto Center
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+	<!-- MAIN  -->
+  `,
+  footer: `
+	 <!-- footer  -->
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://api.whatsapp.com/send?phone=551120659002" title="Horário de atendimento - contato"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/oll" width="650" height="140" alt="Horário de atendimento - contato" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.fermaquinas.com.br/" title="Fermáquinas">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/195r" width="auto" height="auto" alt="Fermáquinas" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.facebook.com/fermaquinasoficial/" title="Facebook"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/195s" width="auto" height="auto" alt="Facebook" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.instagram.com/fermaquinasoficial/" title="instagram"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/195t" width="auto" height="auto" alt="Instagram" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.youtube.com/channel/UCos6VNWCM9p4q9HVBNswFZw" title="Youtube"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/195u" width="auto" height="auto" alt="Youtube" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.fermaquinas.com.br/" title="Fermáquinas"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/szy" width="650" height="173" alt="Fermáquinas" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr style="background: #ffff;">
+			<td width="650" height="99">
+				<p
+					style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #545151; font-size: 11px;">
+					Fermaquinas - Todos os direitos reservados.<br>
+					Os preços, promoções, condições de pagamento, frete e produtos são válidos exclusivamente para compras realizadas via internet,<br> Fotos meramente ilustrativas.
+	
+				<p
+					style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #545151; font-size: 11px;">
+					<strong>Fermáquinas Comércio de Ferramentas e Maquinas LTDA CNPJ: 68.452.762/0001-62 <br> Endereço: Rua Auriverde, 1607 - Vila Carioca - São Paulo - SP</strong></p>
+	
+			</td>
+		</tr>
+	</table>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font> 
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
 "": {
   header: ``,
   footer: ``
