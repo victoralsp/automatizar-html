@@ -1069,6 +1069,127 @@ const clientData = {
 
   `
 },
+"MOB": {
+  header: `
+	<html>
+  <head>
+    <title>news_1711</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td><a href="https://www.mobonline.com.br/" target="_blank" rel="noopener noreferrer"><img
+							src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_01.jpg"
+							width="600" height="92" style="display: block;" border="0"></a></td>
+			</tr>
+		</tbody>
+	</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <tr>
+    <td align="center" style="padding: 10px 0 20px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="65%">
+        <tr>
+          <td align="center">
+            <a href="https://www.mobonline.com.br/roupas" target="_blank" style="text-decoration: none; color: #3d3d3d; font-size: 16px;">COLECAO</a>
+          </td>
+          <td align="center">
+            <a href="https://www.mobonline.com.br/couro" target="_blank" style="text-decoration: none; color: #3d3d3d; font-size: 16px;">COUROS</a>
+          </td>
+          <td align="center">
+            <a href="https://www.mobonline.com.br/acess%C3%B3rios" target="_blank" style="text-decoration: none; color: #3d3d3d; font-size: 16px;">ACESSORIOS</a>
+          </td>
+          <td align="center">
+            <a href="https://www.mobonline.com.br/outlet/roupas" target="_blank" style="text-decoration: none; color: #3d3d3d; font-size: 16px;">SALE</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- main  --> 
+  `,
+  footer: `
+	 <!-- footer  -->
+<table align="center" width="600" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><a href="https://api.whatsapp.com/send?phone=5511911965732"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_06.jpg"
+                    width="177" height="140" style="display: block;" border="0" alt="" /></a></td>
+
+        <td><a href="https://www.mobonline.com.br"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_07.jpg"
+                    width="123" height="140" style="display: block;" border="0" alt="" /></a></td>
+
+        <td><a href="https://www.mobonline.com.br/lojas"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_08.jpg"
+                    width="142" height="140" style="display: block;" border="0" alt="" /></a></td>
+
+        <td><a href="https://www.mobonline.com.br/rewards"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_09.jpg"
+                    width="158" height="140" style="display: block;" border="0" alt="" /></a></td>
+    </tr>
+</table>
+
+<table align="center" width="600" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td><a href="https://www.instagram.com/moboficial"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_10.jpg"
+                    width="600" height="41" style="display: block;" border="0" alt="" /></a></td>
+    </tr>
+</table>
+
+<!-- a  -->
+<table align="center" width="600" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <a href="https://www.mobonline.com.br"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/13dx"
+                    width="600" height="162" style="display: block;" border="0" alt="" />
+            </a>
+        </td>
+    </tr>
+</table>
+
+<!-- INICIO-FOOTER --> <!-- FIM-FOOTER --> <!-- INICIO-FOOTER --> <!-- FIM-FOOTER -->
+<!-- INICIO-TEXTO-LEGAL --->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+    <tr>
+        <td><a href="https://www.mobonline.com.br"
+                target="_blank" rel="noopener noreferrer"><img
+                    src="https://imgserver-oct.com/atendimento/MOB/2022/TX_LEGAL_NOVO/Texto_legal_novo.jpg" width="600"
+                    height="400" style="display: block;" border="0" /></a></td>
+    </tr>
+</table>
+
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td align="center" width="220" height="18"
+            style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 10px;"><a
+                href="[unsubscribe]" target="_blank" style="text-decoration: none; color: #5a5959; padding-left: 10px;"
+                rel="noopener noreferrer"><strong> Cancele o recebimento</strong></a></td>
+    </tr>
+    </table>
+  </body>
+</html>
+
+  `
+},
 
 "": {
   header: ``,
