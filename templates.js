@@ -1073,7 +1073,7 @@ const clientData = {
   header: `
 	<html>
   <head>
-    <title>news_1711</title>
+    <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
   <body
@@ -1194,7 +1194,7 @@ const clientData = {
   header: `
 	<html>
   <head>
-    <title> Última semana do Esquenta Black! 🖤</title>
+    <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
   <body
@@ -1321,6 +1321,372 @@ const clientData = {
 
   `
 },
+"EMPÓRIO VARANDA": {
+  header: `
+	<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.varanda.com.br/"
+            href="https://www.varanda.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aeu"
+              width="650"
+              height="auto"
+              alt="https://www.varanda.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.varanda.com.br/"
+            href="https://www.varanda.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aev"
+              width="650"
+              height="auto"
+              alt="https://www.varanda.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.varanda.com.br/natal"
+            href="https://www.varanda.com.br/natal"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abe"
+              width="79"
+              height="43"
+              alt="https://www.varanda.com.br/natal"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/adega"
+            href="https://www.varanda.com.br/adega"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abf"
+              width="69"
+              height="43"
+              alt="https://www.varanda.com.br/adega"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/mercearia"
+            href="https://www.varanda.com.br/mercearia"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abg"
+              width="96"
+              height="43"
+              alt="https://www.varanda.com.br/mercearia-1"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/hortifruti"
+            href="https://www.varanda.com.br/hortifruti"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abh"
+              width="107"
+              height="43"
+              alt="https://www.varanda.com.br/hortifruti-6"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/suplementos"
+            href="https://www.varanda.com.br/suplementos"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abi"
+              width="116"
+              height="43"
+              alt="https://www.varanda.com.br/suplementos"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/acougue"
+            href="https://www.varanda.com.br/acougue"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abj"
+              width="92"
+              height="43"
+              alt="https://www.varanda.com.br/acougue"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.varanda.com.br/bebida"
+            href="https://www.varanda.com.br/bebida"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abk"
+              width="91"
+              height="43"
+              alt="https://www.varanda.com.br/bebida"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+	<!-- main  -->
+  `,
+  footer: `
+	 <!-- footer  -->
+
+     <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.instagram.com/varandaemporio/"
+            href="https://www.instagram.com/varandaemporio/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abs"
+              width="384"
+              height="65"
+              alt="https://www.instagram.com/varandaemporio/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://web.facebook.com/varandaemporio?_rdc=1&_rdr#"
+            href="https://web.facebook.com/varandaemporio?_rdc=1&_rdr#"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abt"
+              width="266"
+              height="65"
+              alt="https://web.facebook.com/varandaemporio?_rdc=1&_rdr#"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="" href="#">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1abu"
+              width="650"
+              height="213"
+              alt=""
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+		<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
+"LOJAS MEL": {
+  header: `
+	<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+    <div style="text-align: center; border: 0">
+      <font size="1" face="Verdana" color="#FFFFFF"
+        > Ainda dá tempo de economizar</font
+      >
+    </div>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://www.lojasmel.com/" href="https://www.lojasmel.com/">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1avt"
+              width="600"
+              height="100"
+              alt="https://www.lojasmel.com/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.lojasmel.com/utilidades-domesticas"
+            href="https://www.lojasmel.com/utilidades-domesticas"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1avu"
+              width="177"
+              height="72"
+              alt="https://www.lojasmel.com/utilidades-domesticas"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lojasmel.com/decoracao"
+            href="https://www.lojasmel.com/decoracao"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1avv"
+              width="127"
+              height="72"
+              alt="https://www.lojasmel.com/decoracao"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lojasmel.com/camping-lazer-e-esporte"
+            href="https://www.lojasmel.com/camping-lazer-e-esporte"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1avw"
+              width="136"
+              height="72"
+              alt="https://www.lojasmel.com/camping-lazer-e-esporte"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lojasmel.com/cama-mesa-e-banho"
+            href="https://www.lojasmel.com/cama-mesa-e-banho"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1avx"
+              width="160"
+              height="72"
+              alt="https://www.lojasmel.com/cama-mesa-e-banho"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+	<!-- main  -->
+	`,
+	footer: `
+	
+	
+	<!-- footer  -->
+	 <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://www.lojasmel.com/" href="https://www.lojasmel.com/">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1bb3"
+              width="600"
+              height="121"
+              alt="https://www.lojasmel.com/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font> 
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
+
 "": {
   header: ``,
   footer: ``
