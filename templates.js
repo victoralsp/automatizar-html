@@ -1686,6 +1686,239 @@ const clientData = {
 
   `
 },
+"LOVLITY": {
+  header: `
+	<html>
+  <head>
+    <title>Últimos dias com até 70% para aproveitar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/"
+            href="https://www.lovlity.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aii"
+              width="600"
+              height="120"
+              alt="https://www.lovlity.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/new-in?productclusterids=140&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+            href="https://www.lovlity.com.br/new-in?productclusterids=140&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aij"
+              width="123"
+              height="90"
+              alt="https://www.lovlity.com.br/new-in?productclusterids=140&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/vestido-feminino?category-1=vestido-feminino&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+            href="https://www.lovlity.com.br/vestido-feminino?category-1=vestido-feminino&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aik"
+              width="127"
+              height="90"
+              alt="https://www.lovlity.com.br/vestido-feminino?category-1=vestido-feminino&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/roupas-femininas-elegantes?productclusterids=169&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+            href="https://www.lovlity.com.br/roupas-femininas-elegantes?productclusterids=169&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1ail"
+              width="139"
+              height="90"
+              alt="https://www.lovlity.com.br/roupas-femininas-elegantes?productclusterids=169&fuzzy=0&operator=and&facets=productclusterids%2Cfuzzy%2Coperator&sort=score_desc&page=0"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/bridal"
+            href="https://www.lovlity.com.br/bridal"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aim"
+              width="111"
+              height="90"
+              alt="https://www.lovlity.com.br/bridal"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/sale?category-1=sale&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+            href="https://www.lovlity.com.br/sale?category-1=sale&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1ain"
+              width="100"
+              height="90"
+              alt="https://www.lovlity.com.br/sale?category-1=sale&fuzzy=0&operator=and&facets=category-1%2Cfuzzy%2Coperator&sort=release_desc&page=0"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+	<!-- main  -->
+  `,
+  footer: `
+	<!-- footer : -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top: 1px solid rgb(151, 151, 151);">
+      <tr>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/"
+            href="https://www.lovlity.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19vz"
+              width="600"
+              height="228"
+              alt="https://www.lovlity.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.instagram.com/lovlity/"
+            href="https://www.instagram.com/lovlity/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19w0"
+              width="200"
+              height="76"
+              alt="https://www.instagram.com/lovlity/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.youtube.com/channel/UCvetKIHuSn85JsF7b6sMlPQ/videos"
+            href="https://www.youtube.com/channel/UCvetKIHuSn85JsF7b6sMlPQ/videos"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19w1"
+              width="115"
+              height="76"
+              alt="https://www.youtube.com/channel/UCvetKIHuSn85JsF7b6sMlPQ/videos"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.tiktok.com/@lovlity.oficial?lang=pt-BR"
+            href="https://www.tiktok.com/@lovlity.oficial?lang=pt-BR"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19w2"
+              width="117"
+              height="76"
+              alt="https://www.tiktok.com/@lovlity.oficial?lang=pt-BR"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://br.pinterest.com/lovlityoficial/_created/"
+            href="https://br.pinterest.com/lovlityoficial/_created/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19w3"
+              width="168"
+              height="76"
+              alt="https://br.pinterest.com/lovlityoficial/_created/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.lovlity.com.br/"
+            href="https://www.lovlity.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/19w4"
+              width="600"
+              height="254"
+              alt="https://www.lovlity.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+			<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+  `
+},
 
 "": {
   header: ``,
