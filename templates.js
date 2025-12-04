@@ -1566,11 +1566,6 @@ const clientData = {
     marginwidth="0"
     marginheight="0"
   >
-    <div style="text-align: center; border: 0">
-      <font size="1" face="Verdana" color="#FFFFFF"
-        > Ainda dá tempo de economizar</font
-      >
-    </div>
     <table align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td>
