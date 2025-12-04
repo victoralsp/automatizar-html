@@ -22,7 +22,7 @@
     </div>
     <main>
         <section id="sec-automatizacao">
-            <article class="article-container">
+            <article class="article-container section-configs-html">
                 <h3>HTML Original (do Photoshop)</h3>
                 <textarea id="htmlInput" placeholder="Cole seu HTML aqui..." oninput="autoFormat()"></textarea>
 
@@ -31,17 +31,43 @@
                     <option value="">Sem Cliente</option>
                 </select>
 
-                <div id="containerSelecaoHeaderFooter">
-                    <label class="labelSelecaoHeaderFooter">
-                        <input type="checkbox" id="replaceHeader">
-                        <p title="Troca a primeira table do html pelo cabeçalho salvo no script">Substituir cabeçalho? </p>
-                    </label>
 
-                    <label class="labelSelecaoHeaderFooter">
-                        <input type="checkbox" id="replaceFooter">
-                        <p title="Troca a última table do html pelo rodapé salvo no script">Substituir rodapé?</p>
-                    </label>
+
+
+
+
+                <div id="containerSelecaoHeaderFooter">
+                    <div>
+                        <h3>Cabeçalho:</h3>
+                        <label class="labelSelecaoHeaderFooter">
+                            <input type="checkbox" id="replaceHeader">
+                            <p title="Troca a primeira table do html pelo cabeçalho salvo no script">Substituir cabeçalho? </p>
+                        </label>
+                        <label class="labelSelecaoHeaderFooter">
+                            <input type="checkbox" id="noHeader">
+                            <p title="Não adiciona cabeçalho">Não adicionar cabeçalho</p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <h3>Rodapé:</h3>
+                        <label class="labelSelecaoHeaderFooter">
+                            <input type="checkbox" id="replaceFooter">
+                            <p title="Troca a última table do html pelo rodapé salvo no script">Substituir rodapé?</p>
+                        </label>
+                        <label class="labelSelecaoHeaderFooter">
+                            <input type="checkbox" id="noFooter">
+                            <p title="Não adiciona rodapé">Não adicionar rodapé</p>
+                        </label>
+                    </div>
                 </div>
+
+
+
+
+
+
+
 
                 <div id="containerConfigDisparo">
                     <label>Configurações do disparo:</label>

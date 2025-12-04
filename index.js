@@ -21,7 +21,6 @@ function populateClientSelect() {
 
 function autoFormat() {
   const rawHTML = document.getElementById("htmlInput").value;
-  // Fallback simples se o input estiver vazio
   if (!rawHTML.trim()) return;
 
   const parser = new DOMParser();
@@ -55,7 +54,7 @@ function autoFormat() {
 
 function generateFields() {
   const countInput = document.getElementById("linkCount");
-  if (!countInput.value) return; // Evita erro se vazio
+  if (!countInput.value) return; 
   
   const count = parseInt(countInput.value);
   const container = document.getElementById("fieldsContainer");
@@ -71,14 +70,27 @@ function generateFields() {
 }
 
 function updateHTML() {
-  // 1. Pega o HTML do textarea
+  // 1. Pega o HTML
   let bodyHtml = document.getElementById("htmlInput").value;
   
-  // 2. Configurações de substituição e TEXTOS
-  const shouldReplaceHeader = document.getElementById("replaceHeader").checked;
-  const shouldReplaceFooter = document.getElementById("replaceFooter").checked;
-  
-  // Novos Inputs de Texto
+  // 2. Verifica configurações
+  // "Não Adicionar" tem prioridade máxima
+  const skipHeader = document.getElementById("noHeader").checked;
+  const skipFooter = document.getElementById("noFooter").checked;
+
+  let shouldReplaceHeader = document.getElementById("replaceHeader").checked;
+  let shouldReplaceFooter = document.getElementById("replaceFooter").checked;
+
+  // LÓGICA CRUCIAL: Se "Não adicionar" estiver marcado, forçamos "Não substituir"
+  // Isso garante que "ele nao adiciona nada nem substitui"
+  if (skipHeader) {
+    shouldReplaceHeader = false;
+  }
+  if (skipFooter) {
+    shouldReplaceFooter = false;
+  }
+
+  // Inputs de texto
   const subjectText = document.getElementById("emailSubject").value;
   const preheaderText = document.getElementById("emailPreheader").value;
 
@@ -98,11 +110,12 @@ function updateHTML() {
     if(!bodyHtml) bodyHtml = ""; 
   }
 
-  // --- LÓGICA DE LINKS (COM OFFSET) ---
+  // --- LÓGICA DE LINKS ---
   const links = document.querySelectorAll(".link");
   const altTitles = document.querySelectorAll(".altTitle");
   const imgSrcs = document.querySelectorAll(".imgSrc");
 
+  // Offset só acontece se realmente formos substituir/remover o header
   let inputOffset = shouldReplaceHeader ? 1 : 0;
   let index = 0;
   
@@ -142,24 +155,36 @@ function updateHTML() {
   // 4. Inserção do Template (Cliente)
   const selectedClient = document.getElementById("clientSelect").value;
   let finalHtml = "";
+  
+  // Variáveis para guardar header e footer do cliente
+  let clientHeader = "";
+  let clientFooter = "";
 
   if (selectedClient && clientData[selectedClient]) {
-    const header = clientData[selectedClient].header;
-    const footer = clientData[selectedClient].footer;
-    finalHtml = header + "\n" + bodyHtml + "\n" + footer;
+    // Só pega o header do cliente SE não estiver marcado para pular
+    if (!skipHeader) {
+      clientHeader = clientData[selectedClient].header;
+    }
+    
+    // Só pega o footer do cliente SE não estiver marcado para pular
+    if (!skipFooter) {
+      clientFooter = clientData[selectedClient].footer;
+    }
+    
+    // Monta o HTML final
+    finalHtml = clientHeader + "\n" + bodyHtml + "\n" + clientFooter;
+    
   } else {
     finalHtml = bodyHtml;
   }
 
   // 5. ATUALIZAÇÃO DO ASSUNTO (TITLE)
-  // Procura por <title>...</title> e substitui o conteúdo
+  // Só tenta substituir se tiver a tag <title> (ou seja, se o Header foi adicionado)
   if (subjectText && subjectText.trim() !== "") {
-    // Regex segura para substituir o conteúdo da tag title
     finalHtml = finalHtml.replace(/<title>.*?<\/title>/i, `<title>${subjectText}</title>`);
   }
 
   // 6. INSERÇÃO DO SUB-ASSUNTO (PREHEADER)
-  // Cria a div usando o texto digitado ou um padrão se estiver vazio
   const textoFinalPreheader = preheaderText || "Digite aqui o sub assunto...";
   
   const subAssuntoDiv = `
@@ -167,9 +192,11 @@ function updateHTML() {
   <font size="1" face="Verdana" color="#FFFFFF">${textoFinalPreheader}</font>
 </div>`;
 
+  // Tenta injetar logo após o body
   if (finalHtml.match(/<body[^>]*>/i)) {
     finalHtml = finalHtml.replace(/(<body[^>]*>)/i, `$1\n${subAssuntoDiv}`);
   } else {
+    // Se não tiver body (ex: header pulado), coloca no topo de tudo
     finalHtml = subAssuntoDiv + "\n" + finalHtml;
   }
   

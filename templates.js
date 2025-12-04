@@ -179,6 +179,8 @@ const clientData = {
     marginwidth="0"
     marginheight="0"
   >
+
+
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td width="513" height="90">
@@ -227,7 +229,11 @@ const clientData = {
 						width="153" height="27" border="0" style="display: block;" alt="Cabine e Chassi"></a>
 			</td>
 		</tr>
-	</table>`,
+	</table>
+
+
+	<!-- MAIN  --> 
+  `,
   footer: `
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
