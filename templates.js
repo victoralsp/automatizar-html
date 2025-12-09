@@ -1961,6 +1961,199 @@ const clientData = {
   </html>
   `
 },
+"BROOKS DONNA": {
+  header: `
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+   
+	    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="background-color: #fff"
+    >
+      <tbody>
+        <tr>
+
+          <td>
+            <a href="https://www.brooksdonna.com.br/" title="Brooksfield Donna"
+              ><img
+                src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/196u"
+                width="415"
+                height="auto"
+                alt="Brooksfield Donna"
+                border="0"
+                style="display: block"
+            /></a>
+          </td>
+         
+        </tr>
+      </tbody>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://www.brooksdonna.com.br/" href="https://www.brooksdonna.com.br/">
+            <img
+              src="http://fgholding.com.br/emkt/BrooksfieldDonna/2025/09.30/15_AUREAH_01.jpg"
+              width="600"
+              height="auto"
+              alt="https://www.brooksdonna.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+  `,
+  footer: `
+   <!-- footer :  -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#f5f5f5" style="font-family: Arial, sans-serif; border: 1px solid #f5f5f5;">
+  <tr>
+    <td align="center" style="padding: 15px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 0 30px;">
+        <tr>
+          <td align="center" style="padding: 0">
+            <a href="https://www.brooksdonna.com.br/novidades" target="_blank" style="text-decoration: none; color: #333333; font-size: 16px; font-weight: bold;">NOVIDADES</a>
+          </td>
+          <td align="center" style="padding: 0">
+            <a href="https://www.brooksdonna.com.br/roupas" target="_blank" style="text-decoration: none; color: #333333; font-size: 16px; font-weight: bold;">ROUPAS</a>
+          </td>
+          <td align="center" style="padding: 0;">
+            <a href="https://www.brooksdonna.com.br/complete-o-look" target="_blank" style="text-decoration: none; color: #333333; font-size: 16px; font-weight: bold;">COMPLETE O SEU LOOK</a>
+          </td>
+          <td align="center" style="padding: 0">
+            <a href="https://www.brooksdonna.com.br/sale" target="_blank" style="text-decoration: none; color: #fd4242; font-size: 16px; font-weight: bold;">SALE</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff" style="font-family: Arial, sans-serif;">
+      <tr>
+    <td style="border-top: 1px solid #cccccc; padding: 40px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td align="center">
+            <p style="font-size: 15px; color: #333333; margin: 0; display: inline;">5% OFF NA PRIMEIRA COMPRA. USE O CUPOM: </p>
+            <span style="font-size: 14px; color: #333333; font-weight: bold; padding: 8px 12px; border: 1px dashed #4d4d4d; border-radius: 5px; margin-left: 10px; background-color: #f5f5f5;">DONNA5</span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.brooksdonna.com.br/" title="Brooks Donna"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/18xo" width="600"
+						height="auto" alt="Brooks Donna" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff" style="font-family: Arial, sans-serif;">
+  <tr>
+    <td align="center" style="padding: 10px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="85%" style="background-color: #fff; border-radius: 5px; border: 1px solid #0000003f;">
+        <tr>
+          <td align="center">
+            <a href="https://www.brooksdonna.com.br/institucional/marca" target="_blank" style="padding: 15px 20px; text-decoration: none; color: #333333; font-size: 16px; font-weight: bold; display: block; letter-spacing: 1px;">
+              CONHEÇA MAIS SOBRE A BROOKS DONNA →
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px 0;">
+      <table border="0" cellpadding="0" cellspacing="0" width="85%" style="background-color: #fff; border-radius: 5px; border: 1px solid #0000003f;">
+        <tr>
+          <td align="center">
+            <a href="https://www.brooksdonna.com.br/institucional/lojas" target="_blank" style="padding: 15px 20px; text-decoration: none; color: #333333; font-size: 16px; font-weight: bold; display: block; letter-spacing: 1px;">
+              NOSSAS LOJAS →
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.facebook.com/BrooksfieldDonna/" title="Facebook"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1brl" width="auto"
+						height="auto" alt="Facebook" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.instagram.com/brooksfielddonna/" title="Instagram"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1brm" width="auto"
+						height="auto" alt="Instagram" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://br.pinterest.com/brooksfielddonna/" title="Pinterest"><img
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1brn" width="auto"
+						height="auto" alt="Pinterest" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr style="background: #f5f5f5;">
+			<td width="600" height="99">
+				<p
+					style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #000; font-size: 10px; margin-top: 15px; padding-top: 25px; box-sizing: border-box;">
+					BROOKSFIELD DONNA | Avenida Roque Petroni Júnior, 999, 2º Andar - Sala 22, Vila Gertrudes |
+					04707-910 - São Paulo - SP<br>
+					CNPJ: 12.014.557/0001-06 | SAC: 12 3199.0399 | sac@brooksdonna.com.br</p>
+
+				<p
+					style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #000; font-size: 10px; margin-bottom: 15px; padding-bottom:  25px; box-sizing: border-box;">
+					<strong>Preços e condições de pagamento exclusivos para compras via Internet. Fica garantida a
+						empresa a eventual retificação das ofertas e erros de digitação que possam ter sido
+						veiculados.</strong>
+				</p>
+
+			</td>
+		</tr>
+	</table>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+  `
+},
 
 "": {
   header: ``,
