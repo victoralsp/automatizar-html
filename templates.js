@@ -856,8 +856,7 @@ const clientData = {
   header: `
 	<html>
   <head>
-    <title>
-</title>
+    <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
   <body
@@ -1691,7 +1690,7 @@ const clientData = {
   header: `
 	<html>
   <head>
-    <title>Últimos dias com até 70% para aproveitar</title>
+    <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
   <body
@@ -1918,6 +1917,48 @@ const clientData = {
 	</div>
   </body>
 </html>
+  `
+},
+"EDITORA DO BRASIL": {
+  header: `
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        <a title="https://lojavirtual.editoradobrasil.com.br/" href="https://lojavirtual.editoradobrasil.com.br/" >
+          <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1bx7" width="650" height="auto" alt="https://lojavirtual.editoradobrasil.com.br/" border="0" style="display: block;">
+        </a>
+      </td>
+    </tr>
+  </table>
+  `,
+  footer: `
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://lojavirtual.editoradobrasil.com.br/" href="https://lojavirtual.editoradobrasil.com.br/" >
+          <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1bxh" width="650" height="auto" alt="https://lojavirtual.editoradobrasil.com.br/" border="0" style="display: block;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    <div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+  </html>
   `
 },
 

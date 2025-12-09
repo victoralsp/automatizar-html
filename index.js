@@ -19,6 +19,29 @@ function populateClientSelect() {
   });
 }
 
+// --- FUNÇÃO AUXILIAR MATEMÁTICA ---
+function incrementMailbizId(str) {
+  const chars = "0123456789abcdefghijklmnopqrstuvwxyz";
+  const strArr = str.split('');
+  
+  for (let i = strArr.length - 1; i >= 0; i--) {
+    const char = strArr[i];
+    const index = chars.indexOf(char);
+
+    if (index !== -1) {
+      if (index < chars.length - 1) {
+        strArr[i] = chars[index + 1];
+        break; 
+      } else {
+        strArr[i] = chars[0];
+      }
+    } else {
+      break;
+    }
+  }
+  return strArr.join('');
+}
+
 function autoFormat() {
   const rawHTML = document.getElementById("htmlInput").value;
   if (!rawHTML.trim()) return;
@@ -59,6 +82,7 @@ function generateFields() {
   const count = parseInt(countInput.value);
   const container = document.getElementById("fieldsContainer");
   container.innerHTML = "";
+  
   for (let i = 0; i < count; i++) {
     container.innerHTML += `
       <div class="row">
@@ -67,55 +91,62 @@ function generateFields() {
         <input type="text" placeholder="Source da Imagem ${i + 1} (src)" class="imgSrc"> 
       </div>`;
   }
+
+  // >>> CORREÇÃO AQUI <<<
+  // Agora adicionamos o evento em TODOS os inputs de imagem.
+  // Assim, se você começar pelo Input 2, ele preenche do 3 em diante.
+  const allImgInputs = document.querySelectorAll(".imgSrc");
+  
+  allImgInputs.forEach((input, index) => {
+    input.addEventListener("input", function() {
+      const isMailbizActive = document.getElementById("mailbizCheck").checked;
+      
+      if (isMailbizActive && this.value.trim() !== "") {
+        let currentUrl = this.value;
+
+        // Loop começa do PRÓXIMO input (index + 1) até o final
+        for (let j = index + 1; j < allImgInputs.length; j++) {
+          const nextUrl = incrementMailbizId(currentUrl);
+          allImgInputs[j].value = nextUrl;
+          currentUrl = nextUrl;
+        }
+      }
+    });
+  });
 }
 
 function updateHTML() {
-  // 1. Pega o HTML
   let bodyHtml = document.getElementById("htmlInput").value;
   
-  // 2. Verifica configurações
-  // "Não Adicionar" tem prioridade máxima
+  // Configurações
   const skipHeader = document.getElementById("noHeader").checked;
   const skipFooter = document.getElementById("noFooter").checked;
-
   let shouldReplaceHeader = document.getElementById("replaceHeader").checked;
   let shouldReplaceFooter = document.getElementById("replaceFooter").checked;
 
-  // LÓGICA CRUCIAL: Se "Não adicionar" estiver marcado, forçamos "Não substituir"
-  // Isso garante que "ele nao adiciona nada nem substitui"
-  if (skipHeader) {
-    shouldReplaceHeader = false;
-  }
-  if (skipFooter) {
-    shouldReplaceFooter = false;
-  }
+  if (skipHeader) shouldReplaceHeader = false;
+  if (skipFooter) shouldReplaceFooter = false;
 
-  // Inputs de texto
   const subjectText = document.getElementById("emailSubject").value;
   const preheaderText = document.getElementById("emailPreheader").value;
 
-  // 3. Lógica de REMOÇÃO de fatias antigas
+  // Lógica de REMOÇÃO
   const tableRegex = /<table[\s\S]*?<\/table>/gi;
   let tables = bodyHtml.match(tableRegex);
 
   if (tables && tables.length > 0) {
-    if (shouldReplaceHeader) {
-      tables.shift(); 
-    }
-    if (shouldReplaceFooter && tables.length > 0) {
-      tables.pop(); 
-    }
+    if (shouldReplaceHeader) tables.shift(); 
+    if (shouldReplaceFooter && tables.length > 0) tables.pop(); 
     bodyHtml = tables.join("\n");
   } else {
     if(!bodyHtml) bodyHtml = ""; 
   }
 
-  // --- LÓGICA DE LINKS ---
+  // Lógica de LINKS
   const links = document.querySelectorAll(".link");
   const altTitles = document.querySelectorAll(".altTitle");
   const imgSrcs = document.querySelectorAll(".imgSrc");
 
-  // Offset só acontece se realmente formos substituir/remover o header
   let inputOffset = shouldReplaceHeader ? 1 : 0;
   let index = 0;
   
@@ -152,55 +183,44 @@ function updateHTML() {
     return updated;
   });
 
-  // 4. Inserção do Template (Cliente)
+  // Montagem Final
   const selectedClient = document.getElementById("clientSelect").value;
   let finalHtml = "";
-  
-  // Variáveis para guardar header e footer do cliente
   let clientHeader = "";
   let clientFooter = "";
 
   if (selectedClient && clientData[selectedClient]) {
-    // Só pega o header do cliente SE não estiver marcado para pular
-    if (!skipHeader) {
-      clientHeader = clientData[selectedClient].header;
-    }
-    
-    // Só pega o footer do cliente SE não estiver marcado para pular
-    if (!skipFooter) {
-      clientFooter = clientData[selectedClient].footer;
-    }
-    
-    // Monta o HTML final
+    if (!skipHeader) clientHeader = clientData[selectedClient].header;
+    if (!skipFooter) clientFooter = clientData[selectedClient].footer;
     finalHtml = clientHeader + "\n" + bodyHtml + "\n" + clientFooter;
-    
   } else {
     finalHtml = bodyHtml;
   }
 
-  // 5. ATUALIZAÇÃO DO ASSUNTO (TITLE)
-  // Só tenta substituir se tiver a tag <title> (ou seja, se o Header foi adicionado)
+  // Title e Preheader
   if (subjectText && subjectText.trim() !== "") {
     finalHtml = finalHtml.replace(/<title>.*?<\/title>/i, `<title>${subjectText}</title>`);
   }
 
-  // 6. INSERÇÃO DO SUB-ASSUNTO (PREHEADER)
   const textoFinalPreheader = preheaderText || "Digite aqui o sub assunto...";
-  
-  const subAssuntoDiv = `
-<div style="text-align: center; border: 0;">
-  <font size="1" face="Verdana" color="#FFFFFF">${textoFinalPreheader}</font>
-</div>`;
+  const subAssuntoDiv = `<div style="text-align: center; border: 0;"><font size="1" face="Verdana" color="#FFFFFF">${textoFinalPreheader}</font></div>`;
 
-  // Tenta injetar logo após o body
   if (finalHtml.match(/<body[^>]*>/i)) {
     finalHtml = finalHtml.replace(/(<body[^>]*>)/i, `$1\n${subAssuntoDiv}`);
   } else {
-    // Se não tiver body (ex: header pulado), coloca no topo de tudo
     finalHtml = subAssuntoDiv + "\n" + finalHtml;
   }
   
   document.getElementById("updatedHTML").value = finalHtml;
+
+  // Preview
+  const frame = document.getElementById("previewFrame");
+  if (frame) {
+    const doc = frame.contentDocument || frame.contentWindow.document;
+    doc.open();
+    doc.write(finalHtml);
+    doc.close();
+  }
 }
 
 function copiarHTML() {
@@ -211,7 +231,6 @@ function copiarHTML() {
     msg.style.color = "red";
     return;
   }
-
   navigator.clipboard.writeText(texto)
     .then(() => {
       msg.textContent = "Copiado com sucesso!";
@@ -221,6 +240,5 @@ function copiarHTML() {
       msg.textContent = "Erro ao copiar.";
       msg.style.color = "red";
     });
-
   setTimeout(() => msg.textContent = "", 3000);
 }
