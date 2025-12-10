@@ -63,6 +63,7 @@ function loadFromLocalStorage() {
 document.addEventListener("DOMContentLoaded", () => {
   populateClientSelect();
   loadFromLocalStorage();
+  initModalDrag();
 
   const inputs = [
     "htmlInput", "clientSelect", "replaceHeader", "noHeader",
@@ -292,6 +293,7 @@ function updateHTML() {
 
   const frame = document.getElementById("previewFrame");
   if (frame) {
+    document.getElementById("previewModal").style.display = "flex";
     const doc = frame.contentDocument || frame.contentWindow.document;
     doc.open();
     doc.write(finalHtml);
@@ -339,4 +341,48 @@ function resetAll() {
 
     location.reload();
   }
+}
+
+function closeModal() {
+  document.getElementById("previewModal").style.display = "none";
+}
+
+function initModalDrag() {
+  const modal = document.getElementById("previewModal");
+  const header = document.getElementById("modalHeader");
+
+  if (!modal || !header) return;
+
+  let isDragging = false;
+  let startX, startY, initialLeft, initialTop;
+
+  header.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+
+    const rect = modal.getBoundingClientRect();
+
+    // When starting drag, lock current position in pixels and remove the transform centering
+    modal.style.transform = "none";
+    modal.style.left = rect.left + "px";
+    modal.style.top = rect.top + "px";
+
+    initialLeft = rect.left;
+    initialTop = rect.top;
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+
+    modal.style.left = (initialLeft + dx) + "px";
+    modal.style.top = (initialTop + dy) + "px";
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+  });
 }
