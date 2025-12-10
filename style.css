@@ -537,7 +537,9 @@ button:active {
     transform: translate(-50%, -50%);
     /* Initial centering */
     width: 650px;
-    height: 800px;
+    max-width: 95vw;
+    height: 80vh;
+    max-height: 800px;
     background: rgba(30, 41, 59, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
