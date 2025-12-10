@@ -186,7 +186,7 @@ main {
     backdrop-filter: blur(12px);
     /* Glass blur effect */
     -webkit-backdrop-filter: blur(12px);
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
