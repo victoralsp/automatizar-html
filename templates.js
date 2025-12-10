@@ -2154,6 +2154,146 @@ const clientData = {
 </html>
   `
 },
+"CDT": {
+  header: `
+    <html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.casadastorneiras.com.br/"
+            href="https://www.casadastorneiras.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17ck"
+              width="600"
+              height="85"
+              alt="https://www.casadastorneiras.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+   	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/torneiras-para-banheiro" title="Torneiras para banheiro">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/yll" width="134" height="39" alt="Torneiras para banheiro" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/torneiras-para-cozinha" title="Torneiras para cozinha">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylm" width="82" height="39" alt="Torneiras para cozinha" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/torneiras-gourmet" title="TORNEIRAS GOURMET">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/yln" width="83" height="39" alt="TORNEIRAS GOURMET" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/misturadores" title="Misturadores">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylo" width="102" height="39" alt="Misturadores" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/torneiras-premium" title="TORNEIRAS PREMIUM">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylp" width="82" height="39" alt="TORNEIRAS PREMIUM" border="0"
+						style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.casadastorneiras.com.br/torneiras-plastico-abs" title="Torneiras Plastico ABS">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylq" width="117" height="39" alt="Torneiras Plastico ABS" border="0"
+						style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+
+	<!-- main  -->
+  `,
+  footer: `
+    
+   <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.casadastorneiras.com.br/"
+            href="https://www.casadastorneiras.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17cy"
+              width="254"
+              height="238"
+              alt="https://www.casadastorneiras.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.facebook.com/casadastorneiras"
+            href="https://www.facebook.com/casadastorneiras"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17cz"
+              width="84"
+              height="238"
+              alt="https://www.facebook.com/casadastorneiras"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.instagram.com/casadastorneirasoficial/"
+            href="https://www.instagram.com/casadastorneirasoficial/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17d0"
+              width="262"
+              height="238"
+              alt="https://www.instagram.com/casadastorneirasoficial/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+		<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%" style="font-size: 10px;">Se não estiver visualizando, clique aqui e veja no navegador
+	</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+  `
+},
 
 "": {
   header: ``,
