@@ -1,17 +1,28 @@
 @media (width <=768px) {
     header {
         flex-direction: column;
-        gap: 1em;
+        gap: 1rem;
+        padding: 1rem;
+        height: auto;
+        /* Allow growth */
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .logo-img {
+        height: 40px;
     }
 }
 
-@media (width <= 1535px) {
-    body {
-        height: 100vh;
-        background: linear-gradient(270.13deg, #f1e4ed 0%, #fbf1f2 100%);
-    }
+@media (width <=1535px) {
+    /* Main layout adjustment if needed, but flex/grid should handle it. */
+    /* Removed contrasting background override to keep dark theme consistent. */
 
     main {
-        margin: 3em 0;
+        margin: 1rem auto;
+        padding: 1rem;
     }
 }

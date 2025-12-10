@@ -4,93 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://agenciafg.com.br/wp-content/uploads/2025/05/fg-01-favicon_144px.png"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logo-victor.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query-style.css">
-    <title>Acelerar criação de e-mail marketing</title>
+    <title>Automatizador de HTML para email marketing</title>
 </head>
 
 <body>
-    <div id="bg-color-header">
-        <header>
-            <a href="https://agenciafg.com.br/" target="_blank" rel="noreferrer"><img src="imagens/logo-fg.png"
-                    alt="Logo FG"></a>
+
+
+    <header>
+        <div id='container-logo-title'>
+            <a href="https://agenciafg.com.br/" target="_blank" rel="noreferrer" class="logo-link">
+                <img src="imagens/logo-victor.png" alt="Logo Victor" class="logo-img">
+            </a>
             <h1>Automatizar criação do HTML</h1>
-            <a href="https://agenciafg.com.br/contato/" target="_blank" rel="noreferrer" id="btn-contato">Contato</a>
-        </header>
-    </div>
+        </div>
+        <div class="header-actions">
+            <button id="btn-reset" onclick="resetAll()">Limpar Tudo</button>
+            <a href="https://www.linkedin.com/in/victoralsp/" target="_blank" rel="noreferrer"
+                id="btn-contato">Contato</a>
+        </div>
+    </header>
     <main>
         <section id="sec-automatizacao">
             <article class="article-container section-configs-html">
                 <h3>HTML Original (do Photoshop)</h3>
-                <textarea id="htmlInput" placeholder="Cole seu HTML aqui..." oninput="autoFormat()"></textarea>
+                <div class="scroll-content">
+                    <textarea id="htmlInput" placeholder="Cole seu HTML aqui..." oninput="autoFormat()"></textarea>
 
-                <label for="clientSelect">Cliente:</label>
-                <select id="clientSelect">
-                    <option value="">Sem Cliente</option>
-                </select>
+                    <label for="clientSelect">Cliente:</label>
+                    <select id="clientSelect">
+                        <option value="">Sem Cliente</option>
+                    </select>
 
+                    <div id="containerSelecaoHeaderFooter">
+                        <div>
+                            <h3>Cabeçalho:</h3>
+                            <label class="labelSelecaoHeaderFooter">
+                                <input type="checkbox" id="replaceHeader">
+                                <p title="Troca a primeira table do html pelo cabeçalho salvo no script">Substituir
+                                    cabeçalho? </p>
+                            </label>
+                            <label class="labelSelecaoHeaderFooter">
+                                <input type="checkbox" id="noHeader">
+                                <p title="Não adiciona cabeçalho">Não adicionar cabeçalho</p>
+                            </label>
+                        </div>
 
-
-
-
-
-                <div id="containerSelecaoHeaderFooter">
-                    <div>
-                        <h3>Cabeçalho:</h3>
-                        <label class="labelSelecaoHeaderFooter">
-                            <input type="checkbox" id="replaceHeader">
-                            <p title="Troca a primeira table do html pelo cabeçalho salvo no script">Substituir cabeçalho? </p>
-                        </label>
-                        <label class="labelSelecaoHeaderFooter">
-                            <input type="checkbox" id="noHeader">
-                            <p title="Não adiciona cabeçalho">Não adicionar cabeçalho</p>
-                        </label>
+                        <div>
+                            <h3>Rodapé:</h3>
+                            <label class="labelSelecaoHeaderFooter">
+                                <input type="checkbox" id="replaceFooter">
+                                <p title="Troca a última table do html pelo rodapé salvo no script">Substituir rodapé?
+                                </p>
+                            </label>
+                            <label class="labelSelecaoHeaderFooter">
+                                <input type="checkbox" id="noFooter">
+                                <p title="Não adiciona rodapé">Não adicionar rodapé</p>
+                            </label>
+                        </div>
                     </div>
 
-                    <div>
-                        <h3>Rodapé:</h3>
-                        <label class="labelSelecaoHeaderFooter">
-                            <input type="checkbox" id="replaceFooter">
-                            <p title="Troca a última table do html pelo rodapé salvo no script">Substituir rodapé?</p>
-                        </label>
-                        <label class="labelSelecaoHeaderFooter">
-                            <input type="checkbox" id="noFooter">
-                            <p title="Não adiciona rodapé">Não adicionar rodapé</p>
-                        </label>
+                    <div id="containerConfigDisparo">
+                        <label>Configurações do disparo:</label>
+
+                        <input type="text" id="emailSubject" placeholder="Assunto do E-mail">
+
+                        <input type="text" id="emailPreheader" placeholder="Sub-assunto">
                     </div>
+
+
                 </div>
-
-
-
-
-
-
-
-
-                <div id="containerConfigDisparo">
-                    <label>Configurações do disparo:</label>
-
-                    <input type="text" id="emailSubject" placeholder="Assunto do E-mail (Title)">
-
-                    <input type="text" id="emailPreheader" placeholder="Sub-assunto (Preheader)">
-                </div>
-
-                <label for="linkCount">Número de links (do miolo):</label>
-                <input type="number" id="linkCount" min="1" />
                 <button onclick="generateFields()">Gerar Inputs</button>
             </article>
 
             <article class="article-container" id="article-links-alt">
-                <div>
-                    <h3>Links, Alt/Title e Imagens (Miolo)</h3>
-                    <div>
+                <h3>Links, Alt/Title e Imagens</h3>
+                <div class="scroll-content">
+                    <label class="labelSelecaoHeaderFooter" for="mailbizCheck">
                         <input type="checkbox" id="mailbizCheck">
-                        <label for="mailbizCheck">
-                            Imagens upadas na Mailbiz?
-                        </label>
-                    </div>
+                        <p>Imagens upadas na Mailbiz?</p>
+                    </label>
                     <div class="inputs" id="fieldsContainer"></div>
                 </div>
                 <button onclick="updateHTML()">Atualizar HTML</button>
@@ -98,7 +93,9 @@
 
             <article class="article-container">
                 <h3>HTML Atualizado</h3>
-                <textarea id="updatedHTML" placeholder="O HTML atualizado aparecerá aqui..."></textarea>
+                <div class="scroll-content">
+                    <textarea id="updatedHTML" placeholder="O HTML atualizado aparecerá aqui..."></textarea>
+                </div>
                 <button onclick="copiarHTML()">Copiar HTML</button>
                 <span id="msg"></span>
             </article>

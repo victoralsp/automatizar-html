@@ -1,8 +1,83 @@
-// ===================================
-// LÓGICA DA APLICAÇÃO
-// ===================================
+function saveToLocalStorage() {
+  const data = {
+    htmlInput: document.getElementById("htmlInput").value,
+    clientSelect: document.getElementById("clientSelect").value,
+    replaceHeader: document.getElementById("replaceHeader").checked,
+    noHeader: document.getElementById("noHeader").checked,
+    replaceFooter: document.getElementById("replaceFooter").checked,
+    noFooter: document.getElementById("noFooter").checked,
+    emailSubject: document.getElementById("emailSubject").value,
+    emailPreheader: document.getElementById("emailPreheader").value,
+    mailbizCheck: document.getElementById("mailbizCheck").checked,
+    generatedLinks: []
+  };
 
-document.addEventListener("DOMContentLoaded", populateClientSelect);
+  const links = document.querySelectorAll(".link");
+  const altTitles = document.querySelectorAll(".altTitle");
+  const imgSrcs = document.querySelectorAll(".imgSrc");
+
+  links.forEach((_, i) => {
+    data.generatedLinks.push({
+      link: links[i].value,
+      altTitle: altTitles[i].value,
+      imgSrc: imgSrcs[i].value
+    });
+  });
+
+  localStorage.setItem("automatizarHtmlData", JSON.stringify(data));
+}
+
+function loadFromLocalStorage() {
+  const saved = localStorage.getItem("automatizarHtmlData");
+  if (!saved) return;
+
+  const data = JSON.parse(saved);
+
+  if (data.htmlInput) document.getElementById("htmlInput").value = data.htmlInput;
+  if (data.clientSelect) document.getElementById("clientSelect").value = data.clientSelect;
+  if (data.replaceHeader !== undefined) document.getElementById("replaceHeader").checked = data.replaceHeader;
+  if (data.noHeader !== undefined) document.getElementById("noHeader").checked = data.noHeader;
+  if (data.replaceFooter !== undefined) document.getElementById("replaceFooter").checked = data.replaceFooter;
+  if (data.noFooter !== undefined) document.getElementById("noFooter").checked = data.noFooter;
+  if (data.emailSubject) document.getElementById("emailSubject").value = data.emailSubject;
+  if (data.emailPreheader) document.getElementById("emailPreheader").value = data.emailPreheader;
+  if (data.mailbizCheck !== undefined) document.getElementById("mailbizCheck").checked = data.mailbizCheck;
+
+  if (data.htmlInput) {
+    generateFields();
+  }
+
+  if (data.generatedLinks && data.generatedLinks.length > 0) {
+    const links = document.querySelectorAll(".link");
+    const altTitles = document.querySelectorAll(".altTitle");
+    const imgSrcs = document.querySelectorAll(".imgSrc");
+
+    data.generatedLinks.forEach((item, i) => {
+      if (links[i]) links[i].value = item.link;
+      if (altTitles[i]) altTitles[i].value = item.altTitle;
+      if (imgSrcs[i]) imgSrcs[i].value = item.imgSrc;
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  populateClientSelect();
+  loadFromLocalStorage();
+
+  const inputs = [
+    "htmlInput", "clientSelect", "replaceHeader", "noHeader",
+    "replaceFooter", "noFooter", "emailSubject", "emailPreheader",
+    "mailbizCheck"
+  ];
+
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener("input", saveToLocalStorage);
+      el.addEventListener("change", saveToLocalStorage);
+    }
+  });
+});
 
 function populateClientSelect() {
   const select = document.getElementById("clientSelect");
@@ -10,7 +85,7 @@ function populateClientSelect() {
     console.error("ERRO: Arquivo templates.js não foi carregado.");
     return;
   }
-  const clientNames = Object.keys(clientData); 
+  const clientNames = Object.keys(clientData);
   clientNames.forEach(clientName => {
     const option = document.createElement("option");
     option.value = clientName;
@@ -19,11 +94,10 @@ function populateClientSelect() {
   });
 }
 
-// --- FUNÇÃO AUXILIAR MATEMÁTICA ---
 function incrementMailbizId(str) {
   const chars = "0123456789abcdefghijklmnopqrstuvwxyz";
   const strArr = str.split('');
-  
+
   for (let i = strArr.length - 1; i >= 0; i--) {
     const char = strArr[i];
     const index = chars.indexOf(char);
@@ -31,7 +105,7 @@ function incrementMailbizId(str) {
     if (index !== -1) {
       if (index < chars.length - 1) {
         strArr[i] = chars[index + 1];
-        break; 
+        break;
       } else {
         strArr[i] = chars[0];
       }
@@ -76,13 +150,20 @@ function autoFormat() {
 }
 
 function generateFields() {
-  const countInput = document.getElementById("linkCount");
-  if (!countInput.value) return; 
-  
-  const count = parseInt(countInput.value);
+  const htmlContent = document.getElementById("htmlInput").value;
+  let count = 0;
+
+  if (htmlContent.trim()) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlContent, "text/html");
+    count = doc.querySelectorAll("img").length;
+  }
+
+  if (count === 0) return;
+
   const container = document.getElementById("fieldsContainer");
   container.innerHTML = "";
-  
+
   for (let i = 0; i < count; i++) {
     container.innerHTML += `
       <div class="row">
@@ -92,19 +173,15 @@ function generateFields() {
       </div>`;
   }
 
-  // >>> CORREÇÃO AQUI <<<
-  // Agora adicionamos o evento em TODOS os inputs de imagem.
-  // Assim, se você começar pelo Input 2, ele preenche do 3 em diante.
   const allImgInputs = document.querySelectorAll(".imgSrc");
-  
+
   allImgInputs.forEach((input, index) => {
-    input.addEventListener("input", function() {
+    input.addEventListener("input", function () {
       const isMailbizActive = document.getElementById("mailbizCheck").checked;
-      
+
       if (isMailbizActive && this.value.trim() !== "") {
         let currentUrl = this.value;
 
-        // Loop começa do PRÓXIMO input (index + 1) até o final
         for (let j = index + 1; j < allImgInputs.length; j++) {
           const nextUrl = incrementMailbizId(currentUrl);
           allImgInputs[j].value = nextUrl;
@@ -113,12 +190,16 @@ function generateFields() {
       }
     });
   });
+
+  const allGeneratedInputs = document.querySelectorAll(".link, .altTitle, .imgSrc");
+  allGeneratedInputs.forEach(input => {
+    input.addEventListener("input", saveToLocalStorage);
+  });
 }
 
 function updateHTML() {
   let bodyHtml = document.getElementById("htmlInput").value;
-  
-  // Configurações
+
   const skipHeader = document.getElementById("noHeader").checked;
   const skipFooter = document.getElementById("noFooter").checked;
   let shouldReplaceHeader = document.getElementById("replaceHeader").checked;
@@ -130,29 +211,27 @@ function updateHTML() {
   const subjectText = document.getElementById("emailSubject").value;
   const preheaderText = document.getElementById("emailPreheader").value;
 
-  // Lógica de REMOÇÃO
   const tableRegex = /<table[\s\S]*?<\/table>/gi;
   let tables = bodyHtml.match(tableRegex);
 
   if (tables && tables.length > 0) {
-    if (shouldReplaceHeader) tables.shift(); 
-    if (shouldReplaceFooter && tables.length > 0) tables.pop(); 
+    if (shouldReplaceHeader) tables.shift();
+    if (shouldReplaceFooter && tables.length > 0) tables.pop();
     bodyHtml = tables.join("\n");
   } else {
-    if(!bodyHtml) bodyHtml = ""; 
+    if (!bodyHtml) bodyHtml = "";
   }
 
-  // Lógica de LINKS
   const links = document.querySelectorAll(".link");
   const altTitles = document.querySelectorAll(".altTitle");
   const imgSrcs = document.querySelectorAll(".imgSrc");
 
   let inputOffset = shouldReplaceHeader ? 1 : 0;
   let index = 0;
-  
-  bodyHtml = bodyHtml.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, function(match) {
+
+  bodyHtml = bodyHtml.replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, function (match) {
     const realInputIndex = index + inputOffset;
-    if (realInputIndex >= links.length) return match; 
+    if (realInputIndex >= links.length) return match;
 
     const href = links[realInputIndex]?.value || "#";
     const altTitle = altTitles[realInputIndex]?.value || "";
@@ -170,7 +249,7 @@ function updateHTML() {
       } else {
         newImg = newImg.replace(/<img/, `<img alt="${altTitle}"`);
       }
-      if (newSrc && newSrc.trim() !== "") { 
+      if (newSrc && newSrc.trim() !== "") {
         if (newImg.includes('src=')) {
           newImg = newImg.replace(/src="[^"]*"/, `src="${newSrc}"`);
         } else {
@@ -183,7 +262,6 @@ function updateHTML() {
     return updated;
   });
 
-  // Montagem Final
   const selectedClient = document.getElementById("clientSelect").value;
   let finalHtml = "";
   let clientHeader = "";
@@ -197,7 +275,6 @@ function updateHTML() {
     finalHtml = bodyHtml;
   }
 
-  // Title e Preheader
   if (subjectText && subjectText.trim() !== "") {
     finalHtml = finalHtml.replace(/<title>.*?<\/title>/i, `<title>${subjectText}</title>`);
   }
@@ -210,10 +287,9 @@ function updateHTML() {
   } else {
     finalHtml = subAssuntoDiv + "\n" + finalHtml;
   }
-  
+
   document.getElementById("updatedHTML").value = finalHtml;
 
-  // Preview
   const frame = document.getElementById("previewFrame");
   if (frame) {
     const doc = frame.contentDocument || frame.contentWindow.document;
@@ -241,4 +317,26 @@ function copiarHTML() {
       msg.style.color = "red";
     });
   setTimeout(() => msg.textContent = "", 3000);
+}
+
+function resetAll() {
+  if (confirm("Tem certeza que deseja apagar todas as informações e começar do zero?")) {
+    localStorage.removeItem("automatizarHtmlData");
+
+    document.getElementById("htmlInput").value = "";
+    document.getElementById("emailSubject").value = "";
+    document.getElementById("emailPreheader").value = "";
+
+    document.getElementById("replaceHeader").checked = false;
+    document.getElementById("noHeader").checked = false;
+    document.getElementById("replaceFooter").checked = false;
+    document.getElementById("noFooter").checked = false;
+    document.getElementById("mailbizCheck").checked = false;
+
+    document.getElementById("fieldsContainer").innerHTML = "";
+
+    document.getElementById("updatedHTML").value = "";
+
+    location.reload();
+  }
 }
