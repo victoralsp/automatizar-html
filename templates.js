@@ -2294,6 +2294,137 @@ const clientData = {
 </html>
   `
 },
+"REVEST": {
+  header: `
+    <html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/" title="REVEST">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1082" width="650" height="88" alt="REVEST" border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/" title="Todos os departamentos">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107q" width="200" height="34" alt="Todos os departamentos" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/banheiro" title="Banheiro">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107r" width="76" height="34" alt="Banheiro" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/cozinha-e-lavanderia" title="Cozinha e Lavanderia
+">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107s" width="142" height="34" alt="Cozinha e Lavanderia
+" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/porcelanatos-e-revestimentos" title="Porcelanatos e Revestimentos
+">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107t" width="232" height="34" alt="Porcelanatos e Revestimentos
+" border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/banheiras---spas" title="Banheiras & Spas
+">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107u" width="251" height="34" alt="Banheiras & Spas
+" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/casa-e-lazer" title="Casa e Lazer
+">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107v" width="89" height="34" alt="Casa e Lazer
+" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/ferramentas" title="Ferramentas">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107w" width="86" height="34" alt="Ferramentas" border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/ofertas?order=OrderByBestDiscountDESC" title="Ofertas">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/107x" width="224" height="34" alt="Ofertas" border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- main  -->
+  `,
+  footer: `
+      <!-- footer  -->
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #000;">
+		<tr>
+			<td>
+				<a href="https://www.facebook.com/lojarevestacabamentos" title="Facebook">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/10qg" width="426" height="141" alt="Facebook"
+						border="0" style="display: block; border-radius: 40px 0 0 0;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.instagram.com/revestacabamentos/" title="Instagram">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/10qh" width="58" height="141" alt="Instagram"
+						border="0" style="display: block;">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.youtube.com/channel/UCxm6Dc1-U7NRBwsd8Md16Vw" title="Youtube">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/10qi" width="166" height="141" alt="Youtube"
+						border="0" style="display: block; border-radius: 0 40px 0 0">
+				</a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.revestacabamentos.com.br/" title="Há 29 anos entregando o melhor para você!">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1a27" width="650" height="auto" alt="Há 29 anos entregando o melhor para você!"
+						border="0" style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+	
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+  `
+},
 
 "": {
   header: ``,
