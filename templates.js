@@ -29,7 +29,8 @@ const clientData = {
 		</tr>
 	</table>`,
     footer: `
-<table align="center" border="0" cellpadding="0" cellspacing="0">
+       <!-- footer  -->
+   <table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
 				<a href="https://www.brooksfieldjunior.com.br/" title="Confira todo estilo de Brooksfield Junior"><img
@@ -91,7 +92,7 @@ const clientData = {
 		<tr>
 			<td>
 				<a href="https://www.brooksfieldjunior.com.br/" title="Brooks Junior"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/tv4" width="600" height="165"
+						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1aiy" width="600" height="auto"
 						alt="Brooks Junior" border="0" style="display: block;">
 				</a>
 			</td>
@@ -163,7 +164,8 @@ const clientData = {
 	</div>
   </body>
 </html>
-`
+
+    `
   },
 "ANCHIETA": {
   header: `
