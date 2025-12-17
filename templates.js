@@ -351,101 +351,40 @@ const clientData = {
 "PROBEL": {
   header: `
 	<html>
-  <head>
-    <title></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  </head>
-  <body
-    bgcolor="#FFFFFF"
-    leftmargin="0"
-    topmargin="0"
-    marginwidth="0"
-    marginheight="0"
-  >
 
-    <table align="center" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>
-          <a
-            title="https://www.probel.com.br/"
-            href="https://www.probel.com.br/"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1965"
-              width="600"
-              height="80"
-              alt="https://www.probel.com.br/"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
-    <table align="center" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>
-          <a
-            title="https://www.probel.com.br/conjunto-box"
-            href="https://www.probel.com.br/conjunto-box"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1966"
-              width="196"
-              height="42"
-              alt="https://www.probel.com.br/conjunto-box"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a
-            title="https://www.probel.com.br/colchao"
-            href="https://www.probel.com.br/colchao"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1967"
-              width="122"
-              height="42"
-              alt="https://www.probel.com.br/colchao"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a
-            title="https://www.probel.com.br/base-box"
-            href="https://www.probel.com.br/base-box"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1968"
-              width="120"
-              height="42"
-              alt="https://www.probel.com.br/base-box"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a
-            title="https://www.probel.com.br/box-bau"
-            href="https://www.probel.com.br/box-bau"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1969"
-              width="162"
-              height="42"
-              alt="https://www.probel.com.br/box-bau"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-      </tr>
-    </table> 
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.probel.com.br/" title="Probel"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vvy" width="600" height="81" alt="Probel" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.probel.com.br/conjunto-box" title="Conjuto Box"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vvz" width="194" height="45" alt="Conjuto Box" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.probel.com.br/colchao" title="Colchão"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vw0" width="124" height="45" alt="Colchão" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.probel.com.br/base-box" title="Base box"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vw1" width="122" height="45" alt="Base box" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.probel.com.br/box-bau" title="Box Baú"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vw2" width="160" height="45" alt="Box Baú" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<!-- INICIO MAIN  -->
   `,
   footer: `
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -2003,22 +1942,43 @@ const clientData = {
         </tr>
       </tbody>
     </table>
-    <table align="center" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>
-          <a title="https://www.brooksdonna.com.br/" href="https://www.brooksdonna.com.br/">
-            <img
-              src="http://fgholding.com.br/emkt/BrooksfieldDonna/2025/09.30/15_AUREAH_01.jpg"
-              width="600"
-              height="auto"
-              alt="https://www.brooksdonna.com.br/"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
+   <div style="text-align: center; border: 0;"><font size="1" face="Verdana" color="#FFFFFF">Digite aqui o sub assunto...</font></div>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<a title="https://www.brooksdonna.com.br/" href="https://www.brooksdonna.com.br/" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1c9e" width="600" height="123" alt="https://www.brooksdonna.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<a title="https://www.brooksdonna.com.br/novidades" href="https://www.brooksdonna.com.br/novidades" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1c9f" width="164" height="73" alt="https://www.brooksdonna.com.br/novidades" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.brooksdonna.com.br/roupas" href="https://www.brooksdonna.com.br/roupas" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1c9g" width="104" height="73" alt="https://www.brooksdonna.com.br/roupas" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.brooksdonna.com.br/complete-o-look" href="https://www.brooksdonna.com.br/complete-o-look" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1c9h" width="217" height="73" alt="https://www.brooksdonna.com.br/complete-o-look" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.brooksdonna.com.br/sale" href="https://www.brooksdonna.com.br/sale" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1c9i" width="115" height="73" alt="https://www.brooksdonna.com.br/sale" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+
+
+<!-- main  -->
   `,
   footer: `
    <!-- footer :  -->

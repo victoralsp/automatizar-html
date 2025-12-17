@@ -1,3 +1,7 @@
+// =================================================================
+// CÓDIGO COMPLETO (LocalStorage + Modal + Mailbiz + Remove Spacer)
+// =================================================================
+
 function saveToLocalStorage() {
   const data = {
     htmlInput: document.getElementById("htmlInput").value,
@@ -43,7 +47,14 @@ function loadFromLocalStorage() {
   if (data.emailPreheader) document.getElementById("emailPreheader").value = data.emailPreheader;
   if (data.mailbizCheck !== undefined) document.getElementById("mailbizCheck").checked = data.mailbizCheck;
 
+  // Gera os inputs se houver HTML salvo
   if (data.htmlInput) {
+    // Importante: Precisamos rodar o autoFormat antes ou depois? 
+    // Como o HTML salvo já deve estar formatado, apenas geramos os campos.
+    // Mas para garantir a contagem correta, usamos a função de gerar.
+    
+    // Pequeno ajuste: vamos contar quantas imagens TEM no HTML salvo para gerar os inputs
+    // A função generateFields já faz isso lendo o valor do input.
     generateFields();
   }
 
@@ -117,6 +128,7 @@ function incrementMailbizId(str) {
   return strArr.join('');
 }
 
+// >>> FUNÇÃO ATUALIZADA COM REMOÇÃO DE SPACER.GIF <<<
 function autoFormat() {
   const rawHTML = document.getElementById("htmlInput").value;
   if (!rawHTML.trim()) return;
@@ -127,27 +139,46 @@ function autoFormat() {
 
   const output = trs.map(tr => {
     const tds = Array.from(tr.querySelectorAll("td"));
+    
+    // Mapeia as células
     const tdHTML = tds.map(td => {
       const img = td.querySelector("img");
       if (!img) return "";
+
+      const src = img.getAttribute("src");
+      
+      // >>> FILTRO ANTI-SPACER <<<
+      // Se o src conter "spacer.gif", retorna vazio (apaga a célula)
+      if (src && src.toLowerCase().includes("spacer.gif")) {
+        return "";
+      }
+
       const width = img.getAttribute("width");
       const height = img.getAttribute("height");
-      const src = img.getAttribute("src");
+      
       return `
 <td>
 <a href="" title="">
 <img src="${src}" width="${width}" height="${height}" alt="" border="0" style="display: block;">
 </a>
 </td>`;
-    }).join("");
+    }).join(""); // Junta as células válidas
+
+    // Se depois de filtrar os spacers a linha ficou vazia, não cria a tabela
+    if (!tdHTML.trim()) return "";
 
     return `<table align="center" border="0" cellpadding="0" cellspacing="0">
 <tr>${tdHTML}
 </tr>
 </table>`;
-  }).join("\n");
+  })
+  .filter(table => table !== "") // Remove as tabelas vazias do array final
+  .join("\n");
 
   document.getElementById("htmlInput").value = output;
+  
+  // Salva no storage logo após formatar
+  saveToLocalStorage();
 }
 
 function generateFields() {
@@ -160,9 +191,19 @@ function generateFields() {
     count = doc.querySelectorAll("img").length;
   }
 
-  if (count === 0) return;
+  // Se count for 0, limpa e retorna
+  if (count === 0) {
+     document.getElementById("fieldsContainer").innerHTML = "";
+     return;
+  }
 
   const container = document.getElementById("fieldsContainer");
+  
+  // Verifica se o número de inputs já existentes é igual ao necessário para não recriar e perder dados?
+  // Na sua lógica original, você sempre recria. Vamos manter assim para garantir integridade.
+  // Se quiser preservar dados ao clicar em "Gerar Inputs" novamente, precisaria de lógica extra.
+  // Como o loadFromLocalStorage preenche depois, está ok recriar aqui.
+  
   container.innerHTML = "";
 
   for (let i = 0; i < count; i++) {
@@ -188,6 +229,8 @@ function generateFields() {
           allImgInputs[j].value = nextUrl;
           currentUrl = nextUrl;
         }
+        // Salva após a automação preencher
+        saveToLocalStorage();
       }
     });
   });
@@ -280,7 +323,7 @@ function updateHTML() {
     finalHtml = finalHtml.replace(/<title>.*?<\/title>/i, `<title>${subjectText}</title>`);
   }
 
-  const textoFinalPreheader = preheaderText || "Digite aqui o sub assunto...";
+  const textoFinalPreheader = preheaderText || "";
   const subAssuntoDiv = `<div style="text-align: center; border: 0;"><font size="1" face="Verdana" color="#FFFFFF">${textoFinalPreheader}</font></div>`;
 
   if (finalHtml.match(/<body[^>]*>/i)) {
@@ -291,14 +334,27 @@ function updateHTML() {
 
   document.getElementById("updatedHTML").value = finalHtml;
 
+  // Atualiza o preview e mostra o modal
   const frame = document.getElementById("previewFrame");
   if (frame) {
-    document.getElementById("previewModal").style.display = "flex";
+    const modal = document.getElementById("previewModal");
+    modal.style.display = "flex";
+    
+    // Centraliza novamente o modal apenas se ele não tiver sido movido (opcional)
+    // Se quiser manter a posição onde o usuário deixou, não mexa no top/left aqui.
+    // Se quiser resetar a posição toda vez que abre, descomente as linhas abaixo:
+    // modal.style.top = "50%";
+    // modal.style.left = "50%";
+    // modal.style.transform = "translate(-50%, -50%)";
+
     const doc = frame.contentDocument || frame.contentWindow.document;
     doc.open();
     doc.write(finalHtml);
     doc.close();
   }
+  
+  // Salva o resultado final também
+  saveToLocalStorage();
 }
 
 function copiarHTML() {
@@ -336,7 +392,6 @@ function resetAll() {
     document.getElementById("mailbizCheck").checked = false;
 
     document.getElementById("fieldsContainer").innerHTML = "";
-
     document.getElementById("updatedHTML").value = "";
 
     location.reload();
@@ -363,7 +418,7 @@ function initModalDrag() {
 
     const rect = modal.getBoundingClientRect();
 
-    // When starting drag, lock current position in pixels and remove the transform centering
+    // Remove o transform para usar top/left absolutos
     modal.style.transform = "none";
     modal.style.left = rect.left + "px";
     modal.style.top = rect.top + "px";
