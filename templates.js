@@ -2387,6 +2387,149 @@ const clientData = {
 </html>
   `
 },
+"TIG": {
+  header: `
+    
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+	
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a title="tig" href="https://www.tigstore.com.br/">
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/13ti" width="600" height="90" alt="tig" border="0"
+						style="display: block;">
+				</a>
+			</td>
+		</tr>
+	</table>
+	<table align="center" border="0" width="600" style="margin: 0 auto;" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<a href="https://www.tigstore.com.br/collections/tig-012" title="NOVIDADES"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txp" width="154" height="62" alt="NOVIDADES" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.tigstore.com.br/collections/" title="COLEÇÕES"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txq" width="99" height="62" alt="COLEÇÕES" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.tigstore.com.br/collections/roupas" title="ROUPAS"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txr" width="86" height="62" alt="ROUPAS" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.tigstore.com.br/pages/quem-somos" title="Quem somos"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txs" width="106" height="62" alt="Quem somos" border="0" style="display: block;"></a>
+			</td>
+			<td>
+				<a href="https://www.tigstore.com.br/collections/new-in-sale" title="NEW IN SALE"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txt" width="155" height="62" alt="NEW IN SALE" border="0" style="display: block;"></a>
+			</td>
+		</tr>
+	</table>
+
+	<!-- main  -->
+  `,
+  footer: `
+     <!-- footer : -->
+
+    <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="font-family: Arial, sans-serif;">
+  <tr>
+    <td align="center" style="background-color: #dedede; padding: 40px 0; border-bottom: 1px solid rgb(202, 202, 202);">
+      <table border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+          <td align="center" style="color: #000;">
+            <p style="font-size: 22px; font-weight: bold; margin: 0 0 10px 0;">Personal shopper TIG</p>
+            <p style="font-size: 15px; margin: 0 0 20px 0; font-weight: normal; color: #000;">Consultoria de estilo sob medida especialmente para você</p>
+            <p style="font-size: 15px; font-weight: bold; margin: 0;">
+              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511975261376" style="color: #000; text-decoration: none; font-size: 15px; font-weight: bold; margin: 0;">+55 11 97526-1376</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.tigstore.com.br/"
+            href="https://www.tigstore.com.br/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17tf"
+              width="305"
+              height="133"
+              alt="https://www.tigstore.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.facebook.com/tigoficial"
+            href="https://www.facebook.com/tigoficial"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17tg"
+              width="61"
+              height="133"
+              alt="https://www.facebook.com/tigoficial"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.instagram.com/tigoficial/#"
+            href="https://www.instagram.com/tigoficial/#"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17th"
+              width="44"
+              height="133"
+              alt="https://www.instagram.com/tigoficial/#"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.tiktok.com/@tigoficial"
+            href="https://www.tiktok.com/@tigoficial"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/17ti"
+              width="190"
+              height="133"
+              alt="https://www.tiktok.com/@tigoficial"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000"><a href="%Link:WebBrowser%">Se não estiver visualizando, clique aqui e veja no navegador</a></font>
+	</div>
+	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+
+  `
+},
 
 "": {
   header: ``,
