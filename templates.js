@@ -2531,6 +2531,108 @@ const clientData = {
   `
 },
 
+"AGÊNCIA FG": {
+  header: `
+  <html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194r"
+              width="600"
+              height="94"
+              alt="https://agenciafg.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+  `,
+  footer: `
+   <table align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <a
+            title="https://www.instagram.com/agenciafg/"
+            href="https://www.instagram.com/agenciafg/"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194v"
+              width="107"
+              height="162"
+              alt="https://www.instagram.com/agenciafg/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
+            href="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194w"
+              width="38"
+              height="162"
+              alt="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a
+            title="https://www.youtube.com/@agenciafg7973/videos"
+            href="https://www.youtube.com/@agenciafg7973/videos"
+          >
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194x"
+              width="44"
+              height="162"
+              alt="https://www.youtube.com/@agenciafg7973/videos"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+        <td>
+          <a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/">
+            <img
+              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194y"
+              width="411"
+              height="162"
+              alt="https://agenciafg.com.br/"
+              border="0"
+              style="display: block"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+   	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+`
+},
 "": {
   header: ``,
   footer: ``

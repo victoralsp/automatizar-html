@@ -13,6 +13,7 @@ function saveToLocalStorage() {
     emailSubject: document.getElementById("emailSubject").value,
     emailPreheader: document.getElementById("emailPreheader").value,
     mailbizCheck: document.getElementById("mailbizCheck").checked,
+    replaceWidhtAndHeight: document.getElementById("replaceWidhtAndHeight").checked,
     generatedLinks: []
   };
 
@@ -46,13 +47,14 @@ function loadFromLocalStorage() {
   if (data.emailSubject) document.getElementById("emailSubject").value = data.emailSubject;
   if (data.emailPreheader) document.getElementById("emailPreheader").value = data.emailPreheader;
   if (data.mailbizCheck !== undefined) document.getElementById("mailbizCheck").checked = data.mailbizCheck;
+  if (data.replaceWidhtAndHeight !== undefined) document.getElementById("replaceWidhtAndHeight").checked = data.replaceWidhtAndHeight;
 
   // Gera os inputs se houver HTML salvo
   if (data.htmlInput) {
     // Importante: Precisamos rodar o autoFormat antes ou depois? 
     // Como o HTML salvo já deve estar formatado, apenas geramos os campos.
     // Mas para garantir a contagem correta, usamos a função de gerar.
-    
+
     // Pequeno ajuste: vamos contar quantas imagens TEM no HTML salvo para gerar os inputs
     // A função generateFields já faz isso lendo o valor do input.
     generateFields();
@@ -79,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const inputs = [
     "htmlInput", "clientSelect", "replaceHeader", "noHeader",
     "replaceFooter", "noFooter", "emailSubject", "emailPreheader",
-    "mailbizCheck"
+    "mailbizCheck", "replaceWidhtAndHeight"
   ];
 
   inputs.forEach(id => {
@@ -139,14 +141,14 @@ function autoFormat() {
 
   const output = trs.map(tr => {
     const tds = Array.from(tr.querySelectorAll("td"));
-    
+
     // Mapeia as células
     const tdHTML = tds.map(td => {
       const img = td.querySelector("img");
       if (!img) return "";
 
       const src = img.getAttribute("src");
-      
+
       // >>> FILTRO ANTI-SPACER <<<
       // Se o src conter "spacer.gif", retorna vazio (apaga a célula)
       if (src && src.toLowerCase().includes("spacer.gif")) {
@@ -155,7 +157,7 @@ function autoFormat() {
 
       const width = img.getAttribute("width");
       const height = img.getAttribute("height");
-      
+
       return `
 <td>
 <a href="" title="">
@@ -172,11 +174,11 @@ function autoFormat() {
 </tr>
 </table>`;
   })
-  .filter(table => table !== "") // Remove as tabelas vazias do array final
-  .join("\n");
+    .filter(table => table !== "") // Remove as tabelas vazias do array final
+    .join("\n");
 
   document.getElementById("htmlInput").value = output;
-  
+
   // Salva no storage logo após formatar
   saveToLocalStorage();
 }
@@ -193,17 +195,17 @@ function generateFields() {
 
   // Se count for 0, limpa e retorna
   if (count === 0) {
-     document.getElementById("fieldsContainer").innerHTML = "";
-     return;
+    document.getElementById("fieldsContainer").innerHTML = "";
+    return;
   }
 
   const container = document.getElementById("fieldsContainer");
-  
+
   // Verifica se o número de inputs já existentes é igual ao necessário para não recriar e perder dados?
   // Na sua lógica original, você sempre recria. Vamos manter assim para garantir integridade.
   // Se quiser preservar dados ao clicar em "Gerar Inputs" novamente, precisaria de lógica extra.
   // Como o loadFromLocalStorage preenche depois, está ok recriar aqui.
-  
+
   container.innerHTML = "";
 
   for (let i = 0; i < count; i++) {
@@ -261,6 +263,26 @@ function updateHTML() {
   if (tables && tables.length > 0) {
     if (shouldReplaceHeader) tables.shift();
     if (shouldReplaceFooter && tables.length > 0) tables.pop();
+
+    const replaceAuto = document.getElementById("replaceWidhtAndHeight").checked;
+    if (replaceAuto) {
+      // Define range to apply replacement
+      // If header is kept (!shouldReplaceHeader), Index 0 is Header -> Skip it (Start at 1)
+      // If header is removed, Index 0 is Body -> Process it (Start at 0)
+      let startIndex = !shouldReplaceHeader ? 1 : 0;
+
+      // If footer is kept (!shouldReplaceFooter), Index Length-1 is Footer -> Skip it (End at Length-2)
+      // If footer is removed, Index Length-1 is Body -> Process it (End at Length-1)
+      let endIndex = !shouldReplaceFooter ? tables.length - 2 : tables.length - 1;
+
+      for (let i = startIndex; i <= endIndex; i++) {
+        if (tables[i]) {
+          tables[i] = tables[i].replace(/width=(["'])(.*?)\1/gi, 'width="auto"');
+          tables[i] = tables[i].replace(/height=(["'])(.*?)\1/gi, 'height="auto"');
+        }
+      }
+    }
+
     bodyHtml = tables.join("\n");
   } else {
     if (!bodyHtml) bodyHtml = "";
@@ -339,7 +361,7 @@ function updateHTML() {
   if (frame) {
     const modal = document.getElementById("previewModal");
     modal.style.display = "flex";
-    
+
     // Centraliza novamente o modal apenas se ele não tiver sido movido (opcional)
     // Se quiser manter a posição onde o usuário deixou, não mexa no top/left aqui.
     // Se quiser resetar a posição toda vez que abre, descomente as linhas abaixo:
@@ -352,7 +374,7 @@ function updateHTML() {
     doc.write(finalHtml);
     doc.close();
   }
-  
+
   // Salva o resultado final também
   saveToLocalStorage();
 }
