@@ -501,7 +501,7 @@ const clientData = {
 				<a href="https://www.brooksfield.com.br/alfaiataria" title="Alfaiataria"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7o" width="120" height="83" alt="Alfaiataria" border="0" style="display: block;"></a>
 			</td>
 			<td>
-				<a href="https://brooksfield.com.br/calcados" title="Calçados"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7p" width="109" height="83" alt="Calçados" border="0" style="display: block;"></a>
+				<a href="https://www.brooksfield.com.br/calcados" title="Calçados"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7p" width="109" height="83" alt="Calçados" border="0" style="display: block;"></a>
 			</td>
 			<td>
 				<a href="https://www.brooksfield.com.br/acessorios" title="Acessórios"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/o7q" width="126" height="83" alt="Acessórios" border="0" style="display: block;"></a>
