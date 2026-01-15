@@ -328,6 +328,31 @@ function updateHTML() {
     return updated;
   });
 
+  // >>> FILTRO DE REMOÇÃO DE TABLES VAZIAS (IMAGENS LOCAIS) <<<
+  const removeTableImgVazia = document.getElementById("removeTableImgVazia").checked;
+  if (removeTableImgVazia) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(bodyHtml, "text/html");
+    const docImages = doc.querySelectorAll("img");
+    let hasChanges = false;
+
+    docImages.forEach(img => {
+      const currSrc = img.getAttribute("src");
+      // Verifica se a imagem ainda aponta para pasta local (não foi substituída por link externo)
+      if (currSrc && (currSrc.toLowerCase().startsWith("images/") || currSrc.toLowerCase().startsWith("imagens/"))) {
+        const parentTable = img.closest("table");
+        if (parentTable) {
+          parentTable.remove();
+          hasChanges = true;
+        }
+      }
+    });
+
+    if (hasChanges) {
+      bodyHtml = doc.body.innerHTML;
+    }
+  }
+
   const selectedClient = document.getElementById("clientSelect").value;
   let finalHtml = "";
   let clientHeader = "";
