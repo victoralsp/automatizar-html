@@ -2633,6 +2633,56 @@ const clientData = {
 </html>
 `
 },
+"DACAR": {
+  header: `
+    <html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body
+    bgcolor="#FFFFFF"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <a title="https://comprar.dacar.com.br/" href="https://comprar.dacar.com.br/">
+                <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1e6i" width="650" height="105" alt="https://comprar.dacar.com.br/" border="0" style="display: block;">
+            </a>
+        </td>
+    </tr>
+</table>
+  `,
+  footer: `
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <a title="https://api.whatsapp.com/send/?phone=5541991073770"
+                href="https://api.whatsapp.com/send/?phone=5541991073770">
+                <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1e6s" width="650" height="119" alt="https://api.whatsapp.com/send/?phone=5541991073770" border="0" style="display: block;">
+            </a>
+        </td>
+    </tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+                <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1e6t" width="650" height="89" alt="" border="0" style="display: block;">
+        </td>
+    </tr>
+</table>
+   	<div style="text-align: center;">
+		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
+				href="%Link:Unsubscribe%">remova aqui.</a></font>
+	</div>
+  </body>
+</html>
+  `,
+},
 "": {
   header: ``,
   footer: ``
