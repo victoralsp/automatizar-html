@@ -241,7 +241,7 @@ const clientData = {
 		<tr>
 			<td>
 				<a href="https://www.anchietapecas.com.br/" title="Nossas lojas">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1dvz" width="600" height="auto" alt="Nossas lojas"
+					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1ej0" width="600" height="auto" alt="Nossas lojas"
 						border="0" style="display: block;">
 				</a>
 			</td>
