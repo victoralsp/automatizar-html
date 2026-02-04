@@ -1017,7 +1017,7 @@ const clientData = {
 },
 "MOB": {
   header: `
-	<html>
+<html>
   <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -1033,7 +1033,7 @@ const clientData = {
 		<tbody>
 			<tr>
 				<td><a href="https://www.mobonline.com.br/" target="_blank" rel="noopener noreferrer"><img
-							src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_01.jpg"
+							src="https://dl.dnzdns.com/v/xh8i5cABF0152"
 							width="600" height="92" style="display: block;" border="0"></a></td>
 			</tr>
 		</tbody>
@@ -1069,22 +1069,22 @@ const clientData = {
     <tr>
         <td><a href="https://api.whatsapp.com/send?phone=5511911965732"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_06.jpg"
+                    src="https://dl.dnzdns.com/v/KMJh02ABF0115"
                     width="177" height="140" style="display: block;" border="0" alt="" /></a></td>
 
         <td><a href="https://www.mobonline.com.br"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_07.jpg"
+                    src="https://dl.dnzdns.com/v/GEBL0cABF0115"
                     width="123" height="140" style="display: block;" border="0" alt="" /></a></td>
 
         <td><a href="https://www.mobonline.com.br/lojas"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_08.jpg"
+                    src="https://dl.dnzdns.com/v/Tp8A51ABF0113"
                     width="142" height="140" style="display: block;" border="0" alt="" /></a></td>
 
         <td><a href="https://www.mobonline.com.br/rewards"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_09.jpg"
+                    src="https://dl.dnzdns.com/v/FBVa64ABF0159"
                     width="158" height="140" style="display: block;" border="0" alt="" /></a></td>
     </tr>
 </table>
@@ -1093,7 +1093,7 @@ const clientData = {
     <tr>
         <td><a href="https://www.instagram.com/moboficial"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/TEMPLATE/2024_AGOSTO/2024_08_template_10.jpg"
+                    src="https://dl.dnzdns.com/v/kLQ8e8ABF0416"
                     width="600" height="41" style="display: block;" border="0" alt="" /></a></td>
     </tr>
 </table>
@@ -1111,14 +1111,12 @@ const clientData = {
     </tr>
 </table>
 
-<!-- INICIO-FOOTER --> <!-- FIM-FOOTER --> <!-- INICIO-FOOTER --> <!-- FIM-FOOTER -->
-<!-- INICIO-TEXTO-LEGAL --->
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
     <tr>
         <td><a href="https://www.mobonline.com.br"
                 target="_blank" rel="noopener noreferrer"><img
-                    src="https://imgserver-oct.com/atendimento/MOB/2022/TX_LEGAL_NOVO/Texto_legal_novo.jpg" width="600"
+                    src="https://dl.dnzdns.com/v/mUggd9ABF0210" width="600"
                     height="400" style="display: block;" border="0" /></a></td>
     </tr>
 </table>
@@ -1133,7 +1131,6 @@ const clientData = {
     </table>
   </body>
 </html>
-
   `
 },
 "FERMÁQUINAS": {
