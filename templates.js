@@ -938,7 +938,7 @@ const clientData = {
 			<tr style="color:#7f7f7f; font-family: arial regular; font-size:15px; text-align:center;" bgcolor="#252525">
 				<td width="50" height="88"></td>
 				<td width="550" height="88">
-					<p>© 2025 RDS Consultoria de Imóveis.<br>
+					<p>© 2026 RDS Consultoria de Imóveis.<br>
 						Todos os direitos reservados.</p>
 				</td>
 
