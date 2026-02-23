@@ -2416,7 +2416,7 @@ const clientData = {
 				<a href="https://www.tigstore.com.br/collections/tig-012" title="NOVIDADES"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txp" width="154" height="62" alt="NOVIDADES" border="0" style="display: block;"></a>
 			</td>
 			<td>
-				<a href="https://www.tigstore.com.br/collections/" title="COLEÇÕES"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txq" width="99" height="62" alt="COLEÇÕES" border="0" style="display: block;"></a>
+				<a href="https://www.tigstore.com.br/pages/colecoes" title="COLEÇÕES"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txq" width="99" height="62" alt="COLEÇÕES" border="0" style="display: block;"></a>
 			</td>
 			<td>
 				<a href="https://www.tigstore.com.br/collections/roupas" title="ROUPAS"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/txr" width="86" height="62" alt="ROUPAS" border="0" style="display: block;"></a>
