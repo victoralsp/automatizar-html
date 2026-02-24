@@ -165,10 +165,10 @@ const clientData = {
   </body>
 </html>
 
-    `
+    `,
   },
-"ANCHIETA": {
-  header: `
+  ANCHIETA: {
+    header: `
 <html>
   <head>
     <title></title>
@@ -236,7 +236,7 @@ const clientData = {
 
 	<!-- MAIN  --> 
   `,
-  footer: `
+    footer: `
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
@@ -313,11 +313,11 @@ const clientData = {
 	</div>
   </body>
 </html>
-`
-},
-"BELLIZ B2B": {
-  header: ``,
-  footer: `
+`,
+  },
+  "BELLIZ B2B": {
+    header: ``,
+    footer: `
 	 <table align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td>
@@ -346,10 +346,10 @@ const clientData = {
 	</div>
   </body>
 </html>
-`
-},
-"PROBEL": {
-  header: `
+`,
+  },
+  PROBEL: {
+    header: `
 	<html>
 
 <head>
@@ -386,7 +386,7 @@ const clientData = {
 
 	<!-- INICIO MAIN  -->
   `,
-  footer: `
+    footer: `
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
@@ -446,10 +446,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"BROOKSFIELD": {
-  header: `
+  `,
+  },
+  BROOKSFIELD: {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -480,7 +480,7 @@ const clientData = {
       </tr>
     </table>
   `,
-  footer: `
+    footer: `
 	<!-- footer  -->
 
 	<table align="center" border="0" cellpadding="0" cellspacing="0" style=" background-color: #fff;">
@@ -571,10 +571,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"GUESS": {
-  header: `
+  `,
+  },
+  GUESS: {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -615,7 +615,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
 	<!-- footer  -->
 
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -791,10 +791,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"RDS": {
-  header: `
+  `,
+  },
+  RDS: {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -864,7 +864,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
 	 <!-- footer  -->
 	<table border="0" cellpadding="0" cellspacing="0" align="center" width="fit-content" style="background-color: #303030; margin: 0 auto;">
   <tr>
@@ -957,13 +957,13 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"VERTIX": {
-  header: `
+  `,
+  },
+  VERTIX: {
+    header: `
 	
   `,
-  footer: `
+    footer: `
 	 <!-- footer  -->
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
@@ -988,11 +988,11 @@ const clientData = {
 </body>
 
 </html>
-  `
-},
-"RICCA": {
-  header: ``,
-  footer: `
+  `,
+  },
+  RICCA: {
+    header: ``,
+    footer: `
 	 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
@@ -1013,10 +1013,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"MOB": {
-  header: `
+  `,
+  },
+  MOB: {
+    header: `
 <html>
   <head>
     <title></title>
@@ -1063,7 +1063,7 @@ const clientData = {
 </table>
 <!-- main  --> 
   `,
-  footer: `
+    footer: `
 	 <!-- footer  -->
 <table align="center" width="600" border="0" cellpadding="0" cellspacing="0">
     <tr>
@@ -1131,10 +1131,10 @@ const clientData = {
     </table>
   </body>
 </html>
-  `
-},
-"FERMÁQUINAS": {
-  header: `
+  `,
+  },
+  FERMÁQUINAS: {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -1198,7 +1198,7 @@ const clientData = {
 
 	<!-- MAIN  -->
   `,
-  footer: `
+    footer: `
 	 <!-- footer  -->
 
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -1262,10 +1262,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"EMPÓRIO VARANDA": {
-  header: `
+  `,
+  },
+  "EMPÓRIO VARANDA": {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -1429,7 +1429,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
 	 <!-- footer  -->
 
      <table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -1493,10 +1493,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"LOJAS MEL": {
-  header: `
+  `,
+  },
+  "LOJAS MEL": {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -1592,7 +1592,7 @@ const clientData = {
 
 	<!-- main  -->
 	`,
-	footer: `
+    footer: `
 	
 	
 	<!-- footer  -->
@@ -1622,10 +1622,10 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
-"LOVLITY": {
-  header: `
+  `,
+  },
+  LOVLITY: {
+    header: `
 	<html>
   <head>
     <title></title>
@@ -1740,7 +1740,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
 	<!-- footer : -->
     <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top: 1px solid rgb(151, 151, 151);">
       <tr>
@@ -1855,10 +1855,10 @@ const clientData = {
 	</div>
   </body>
 </html>
-  `
-},
-"EDITORA DO BRASIL": {
-  header: `
+  `,
+  },
+  "EDITORA DO BRASIL": {
+    header: `
 <html>
   <head>
     <title></title>
@@ -1877,7 +1877,7 @@ const clientData = {
     </tr>
   </table>
   `,
-  footer: `
+    footer: `
     <table align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td>
@@ -1897,10 +1897,10 @@ const clientData = {
 	</div>
   </body>
   </html>
-  `
-},
-"BROOKS DONNA": {
-  header: `
+  `,
+  },
+  "BROOKS DONNA": {
+    header: `
 <html>
   <head>
     <title></title>
@@ -1977,7 +1977,7 @@ const clientData = {
 
 <!-- main  -->
   `,
-  footer: `
+    footer: `
    <!-- footer :  -->
 
 <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#f5f5f5" style="font-family: Arial, sans-serif; border: 1px solid #f5f5f5;">
@@ -2111,10 +2111,10 @@ const clientData = {
 	</div>
   </body>
 </html>
-  `
-},
-"CDT": {
-  header: `
+  `,
+  },
+  CDT: {
+    header: `
     <html>
   <head>
     <title></title>
@@ -2190,7 +2190,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
     
    <table align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
@@ -2251,10 +2251,10 @@ const clientData = {
 	</div>
   </body>
 </html>
-  `
-},
-"REVEST": {
-  header: `
+  `,
+  },
+  REVEST: {
+    header: `
     <html>
   <head>
     <title></title>
@@ -2337,7 +2337,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
       <!-- footer  -->
 
 	<table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #000;">
@@ -2382,10 +2382,10 @@ const clientData = {
 	</div>
   </body>
 </html>
-  `
-},
-"TIG": {
-  header: `
+  `,
+  },
+  TIG: {
+    header: `
     
 <html>
   <head>
@@ -2432,7 +2432,7 @@ const clientData = {
 
 	<!-- main  -->
   `,
-  footer: `
+    footer: `
      <!-- footer : -->
 
     <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="font-family: Arial, sans-serif;">
@@ -2525,11 +2525,11 @@ const clientData = {
   </body>
 </html>
 
-  `
-},
+  `,
+  },
 
-"AGÊNCIA FG": {
-  header: `
+  "AGÊNCIA FG": {
+    header: `
   <html>
   <head>
     <title></title>
@@ -2544,94 +2544,59 @@ const clientData = {
   >
 
     <table align="center" border="0" cellpadding="0" cellspacing="0">
-      <tr>
+    <tr>
         <td>
-          <a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/">
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194r"
-              width="600"
-              height="94"
-              alt="https://agenciafg.com.br/"
-              border="0"
-              style="display: block"
-            />
-          </a>
+            <a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/">
+                <img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g0r" width="600" height="93" alt="https://agenciafg.com.br/" border="0" style="display: block;">
+            </a>
         </td>
-      </tr>
-    </table>
+    </tr>
+</table>
   `,
-  footer: `
-   <table align="center" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>
-          <a
-            title="https://www.instagram.com/agenciafg/"
-            href="https://www.instagram.com/agenciafg/"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194v"
-              width="107"
-              height="162"
-              alt="https://www.instagram.com/agenciafg/"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a
-            title="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
-            href="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194w"
-              width="38"
-              height="162"
-              alt="http://www.linkedin.com/company/ag-ncia-fg-marketing-digital-full-service"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a
-            title="https://www.youtube.com/@agenciafg7973/videos"
-            href="https://www.youtube.com/@agenciafg7973/videos"
-          >
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194x"
-              width="44"
-              height="162"
-              alt="https://www.youtube.com/@agenciafg7973/videos"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-        <td>
-          <a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/">
-            <img
-              src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/194y"
-              width="411"
-              height="162"
-              alt="https://agenciafg.com.br/"
-              border="0"
-              style="display: block"
-            />
-          </a>
-        </td>
-      </tr>
-    </table>
+    footer: `
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g0w" width="600" height="150" alt="https://agenciafg.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<a title="https://www.instagram.com/agenciafg/" href="https://www.instagram.com/agenciafg/" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g0x" width="95" height="87" alt="https://www.instagram.com/agenciafg/" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.linkedin.com/company/agencia-fg-marketing-digital/?originalSubdomain=br" href="https://www.linkedin.com/company/agencia-fg-marketing-digital/?originalSubdomain=br" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g0y" width="38" height="87" alt="https://www.linkedin.com/company/agencia-fg-marketing-digital/?originalSubdomain=br" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.youtube.com/@agenciafg7973" href="https://www.youtube.com/@agenciafg7973" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g0z" width="41" height="87" alt="https://www.youtube.com/@agenciafg7973" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://agenciafg.com.br/" href="https://agenciafg.com.br/" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1g10" width="426" height="87" alt="https://agenciafg.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</table>
    	<div style="text-align: center;">
 		<font size="1" face="Verdana" color="#000000">&nbsp;<br />Caso não queira mais receber nossos emails,<a
 				href="%Link:Unsubscribe%">remova aqui.</a></font>
 	</div>
   </body>
 </html>
-`
-},
-"DACAR": {
-  header: `
+`,
+  },
+  DACAR: {
+    header: `
     <html>
   <head>
     <title></title>
@@ -2654,7 +2619,7 @@ const clientData = {
     </tr>
 </table>
   `,
-  footer: `
+    footer: `
     <table align="center" border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td>
@@ -2679,9 +2644,9 @@ const clientData = {
   </body>
 </html>
   `,
-},
-"": {
-  header: ``,
-  footer: ``
-}
-}
+  },
+  "": {
+    header: ``,
+    footer: ``,
+  },
+};
