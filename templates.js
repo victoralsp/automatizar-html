@@ -251,7 +251,7 @@ const clientData = {
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
-				<a href="https://www.anchietapecas.com.br/" title="Nossas lojas"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vec" width="355" height="48" alt="Nossas lojas" border="0" style="display: block;"></a>
+				<a href="https://wa.me/5511947972374" title="Nossas lojas"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vec" width="355" height="48" alt="Nossas lojas" border="0" style="display: block;"></a>
 			</td>
 			<td>
 				<a href="https://www.facebook.com/anchietapecas/" title="facebook"><img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ved" width="33" height="48" alt="facebook" border="0" style="display: block;"></a>
