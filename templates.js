@@ -2147,46 +2147,35 @@ const clientData = {
         </td>
       </tr>
     </table>
-   	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/torneiras-para-banheiro" title="Torneiras para banheiro">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/yll" width="134" height="39" alt="Torneiras para banheiro" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/torneiras-para-cozinha" title="Torneiras para cozinha">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylm" width="82" height="39" alt="Torneiras para cozinha" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/torneiras-gourmet" title="TORNEIRAS GOURMET">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/yln" width="83" height="39" alt="TORNEIRAS GOURMET" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/misturadores" title="Misturadores">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylo" width="102" height="39" alt="Misturadores" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/torneiras-premium" title="TORNEIRAS PREMIUM">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylp" width="82" height="39" alt="TORNEIRAS PREMIUM" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a href="https://www.casadastorneiras.com.br/torneiras-plastico-abs" title="Torneiras Plastico ABS">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/ylq" width="117" height="39" alt="Torneiras Plastico ABS" border="0"
-						style="display: block;">
-				</a>
-			</td>
-		</tr>
-	</table>
+   <table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<a title="https://www.casadastorneiras.com.br/torneiras-para-banheiro" href="https://www.casadastorneiras.com.br/torneiras-para-banheiro" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hwc" width="161" height="48" alt="https://www.casadastorneiras.com.br/torneiras-para-banheiro" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.casadastorneiras.com.br/torneiras-para-cozinha" href="https://www.casadastorneiras.com.br/torneiras-para-cozinha" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hwd" width="107" height="48" alt="https://www.casadastorneiras.com.br/torneiras-para-cozinha" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.casadastorneiras.com.br/torneiras-gourmet" href="https://www.casadastorneiras.com.br/torneiras-gourmet" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hwe" width="95" height="48" alt="https://www.casadastorneiras.com.br/torneiras-gourmet" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.casadastorneiras.com.br/misturadores" href="https://www.casadastorneiras.com.br/misturadores" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hwf" width="112" height="48" alt="https://www.casadastorneiras.com.br/misturadores" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.casadastorneiras.com.br/torneiras-premium" href="https://www.casadastorneiras.com.br/torneiras-premium" >
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hwg" width="125" height="48" alt="https://www.casadastorneiras.com.br/torneiras-premium" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</table>
 
 	<!-- main  -->
   `,
