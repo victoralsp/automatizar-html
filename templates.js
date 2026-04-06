@@ -618,149 +618,140 @@ const clientData = {
     footer: `
 	<!-- footer  -->
 
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.guessbrasil.com.br" title="Shop now">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1077" width="600" height="103" alt="Shop now" border="0"
-						style="display: block;">
-				</a>
-			</td>
-		</tr>
-	</table>
-
-
-
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.guessbrasil.com.br/" title="Cashback"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/vwi" width="600" height="107"
-						alt="Cashback" border="0" style="display: block;"></a>
-			</td>
-		</tr>
-	</table>
-
-
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a title="https://www.guessbrasil.com.br/preview-spring" href="https://www.guessbrasil.com.br/preview-spring">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yw" width="126" height="136" alt="https://www.guessbrasil.com.br/preview-spring" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a title="https://www.guessbrasil.com.br/acessorios" href="https://www.guessbrasil.com.br/acessorios">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yx" width="135" height="136" alt="https://www.guessbrasil.com.br/acessorios" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a title="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft" href="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yy" width="109" height="136" alt="https://www.guessbrasil.com.br/jeans?_q=jeans&map=ft" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a title="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft" href="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15yz" width="105" height="136" alt="https://www.guessbrasil.com.br/camisetas?_q=camisetas&map=ft" border="0"
-						style="display: block;">
-				</a>
-			</td>
-			<td>
-				<a title="https://www.guessbrasil.com.br/sale" href="https://www.guessbrasil.com.br/sale">
-					<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/15z0" width="125" height="136" alt="https://www.guessbrasil.com.br/sale" border="0"
-						style="display: block;">
-				</a>
-			</td>
-		</tr>
-	</table>
-
-
-
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.guessbrasil.com.br/institucional/onde-encontrar" title="Encontre uma loja"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r70" width="224" height="181"
-						alt="Encontre uma loja" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://www.guessbrasil.com.br/institucional/nossa-historia" title="Sobre nós"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r71" width="155" height="181"
-						alt="Sobre nós" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&nd=1" title="Spotify"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r72" width="221" height="181"
-						alt="Spotify" border="0" style="display: block;"></a>
-			</td>
-		</tr>
-	</table>
-
-
-
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.guessbrasil.com.br/" title="Guess - Frete"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/sqa" width="600" height="123"
-						alt="Guess - Frete" border="0" style="display: block;"></a>
-			</td>
-		</tr>
-	</table>
-
-
-
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.instagram.com/guessbrasil/" title="Instagram"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r74" width="220" height="137"
-						alt="Instagram" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&nd=1" title="Spotify"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r75" width="79" height="137"
-						alt="Spotify" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://www.youtube.com/user/GUESSincTV" title="YouTube"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r76" width="78" height="137"
-						alt="YouTube" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://www.facebook.com/GUESSBrazil" title="Facebook"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r77" width="223" height="137"
-						alt="Facebook" border="0" style="display: block;"></a>
-			</td>
-		</tr>
-	</table>
-
-
-
-	<table align="center" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td>
-				<a href="https://www.guessbrasil.com.br/fale-conosco" title="Entre em contato"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r78" width="221" height="147"
-						alt="Entre em contato" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="https://www.guessbrasil.com.br/" title="Atualizar cadastro"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r79" width="187" height="147"
-						alt="Atualizar cadastro" border="0" style="display: block;"></a>
-			</td>
-			<td>
-				<a href="%Link:Unsubscribe%" title="Desinscrever"><img
-						src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/r7a" width="192" height="147"
-						alt="Desinscrever" border="0" style="display: block;"></a>
-			</td>
-		</tr>
-	</table>
-
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/" href="https://www.guessbrasil.com.br/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx0" width="600" height="214" alt="https://www.guessbrasil.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/colecoes-fall-winter" href="https://www.guessbrasil.com.br/colecoes-fall-winter">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx1" width="113" height="137" alt="https://www.guessbrasil.com.br/colecoes-fall-winter" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/acessorios" href="https://www.guessbrasil.com.br/acessorios">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx2" width="118" height="137" alt="https://www.guessbrasil.com.br/acessorios" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/jeans?_q=jeans&amp;map=ft" href="https://www.guessbrasil.com.br/jeans?_q=jeans&amp;map=ft">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx3" width="150" height="137" alt="https://www.guessbrasil.com.br/jeans?_q=jeans&amp;map=ft" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/camisetas?_q=camisetas&amp;map=ft" href="https://www.guessbrasil.com.br/camisetas?_q=camisetas&amp;map=ft">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx4" width="99" height="137" alt="https://www.guessbrasil.com.br/camisetas?_q=camisetas&amp;map=ft" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/sale" href="https://www.guessbrasil.com.br/sale">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx5" width="120" height="137" alt="https://www.guessbrasil.com.br/sale" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/institucional/onde-encontrar" href="https://www.guessbrasil.com.br/institucional/onde-encontrar">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx6" width="113" height="184" alt="https://www.guessbrasil.com.br/institucional/onde-encontrar" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/institucional/onde-encontrar" href="https://www.guessbrasil.com.br/institucional/onde-encontrar">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx7" width="118" height="184" alt="https://www.guessbrasil.com.br/institucional/onde-encontrar" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/institucional/nossa-historia" href="https://www.guessbrasil.com.br/institucional/nossa-historia">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx8" width="150" height="184" alt="https://www.guessbrasil.com.br/institucional/nossa-historia" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hx9" width="99" height="184" alt="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxa" width="120" height="184" alt="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/" href="https://www.guessbrasil.com.br/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxb" width="600" height="124" alt="https://www.guessbrasil.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.instagram.com/guessbrasil/" href="https://www.instagram.com/guessbrasil/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxc" width="220" height="135" alt="https://www.instagram.com/guessbrasil/" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" href="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxd" width="80" height="135" alt="https://open.spotify.com/user/guessbrasil?si=RVMq5CIUSUC5bWtwLseQ2w&amp;nd=1" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.youtube.com/user/GUESSincTV" href="https://www.youtube.com/user/GUESSincTV">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxe" width="90" height="135" alt="https://www.youtube.com/user/GUESSincTV" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://web.facebook.com/GUESSBrazil?_rdc=1&amp;_rdr#" href="https://web.facebook.com/GUESSBrazil?_rdc=1&amp;_rdr#">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxf" width="210" height="135" alt="https://web.facebook.com/GUESSBrazil?_rdc=1&amp;_rdr#" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/fale-conosco" href="https://www.guessbrasil.com.br/fale-conosco">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxg" width="220" height="146" alt="https://www.guessbrasil.com.br/fale-conosco" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/" href="https://www.guessbrasil.com.br/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxh" width="80" height="146" alt="https://www.guessbrasil.com.br/" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://www.guessbrasil.com.br/" href="https://www.guessbrasil.com.br/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxi" width="90" height="146" alt="https://www.guessbrasil.com.br/" border="0" style="display: block;">
+</a>
+</td>
+<td>
+<a title="https://gryvnagsfedj.compat.objectstorage.sa-saopaulo-1.oraclecloud.com/runrunit/data/enterprise/135132/38116350/%Link:Unsubscribe%" href="https://gryvnagsfedj.compat.objectstorage.sa-saopaulo-1.oraclecloud.com/runrunit/data/enterprise/135132/38116350/%Link:Unsubscribe%">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxj" width="210" height="146" alt="https://gryvnagsfedj.compat.objectstorage.sa-saopaulo-1.oraclecloud.com/runrunit/data/enterprise/135132/38116350/%Link:Unsubscribe%" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a title="https://www.guessbrasil.com.br/" href="https://www.guessbrasil.com.br/">
+<img src="https://mbiz.mailclick.me/app/index.php?/public/file/view/xt/1hxk" width="600" height="152" alt="https://www.guessbrasil.com.br/" border="0" style="display: block;">
+</a>
+</td>
+</tr>
+</tbody></table>
 
 
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
