@@ -4,40 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login — Admin de Templates</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:       #0D0D0D;
-      --surface:  #161616;
-      --border:   #252525;
-      --text:     #E8E3D8;
-      --muted:    #5A5A5A;
-      --accent:   #D4A853;
+      --bg:       #0f172a;
+      --surface:  rgba(30, 41, 59, 0.6);
+      --border:   rgba(255, 255, 255, 0.15);
+      --text:     #f8fafc;
+      --muted:    #cbd5e1;
+      --accent:   #3b82f6;
       --error-bg: rgba(232, 84, 68, 0.08);
       --error:    #E85444;
     }
 
-    html, body {
-      height: 100%;
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Space Grotesk', sans-serif;
+    html {
+      min-height: 100%;
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(circle at 50% 0%,
+          rgba(56, 189, 248, 0.1) 0%,
+          rgba(6, 182, 212, 0.05) 40%,
+          rgba(0, 0, 0, 0) 80%),
+        linear-gradient(to bottom, #0f172a, #020617);
+      background-attachment: fixed;
     }
 
-    /* Grain texture */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)'/%3E%3C/svg%3E");
-      opacity: 0.042;
-      pointer-events: none;
-      z-index: 0;
+    body {
+      min-height: 100vh;
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
     }
+
 
     /* Accent line top */
     body::after {
@@ -64,6 +63,8 @@
       max-width: 400px;
       background: var(--surface);
       border: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       padding: 52px 44px 44px;
     }
 
@@ -83,7 +84,7 @@
     }
 
     .brand-title {
-      font-family: 'DM Serif Display', serif;
+      font-family: 'Outfit', sans-serif;
       font-size: 46px;
       line-height: 1.05;
       color: var(--text);
@@ -122,14 +123,14 @@
       border: none;
       border-bottom: 1px solid var(--border);
       color: var(--text);
-      padding: 10px 0;
+      padding: 10px 0 10px 12px;
       font-size: 15px;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Outfit', sans-serif;
       outline: none;
       transition: border-color 0.2s ease;
     }
 
-    .form-group input::placeholder { color: #2E2E2E; }
+    .form-group input::placeholder { color: rgba(203, 213, 225, 0.3); }
     .form-group input:focus { border-bottom-color: var(--accent); }
 
     /* Error */
@@ -148,11 +149,11 @@
       position: relative;
       overflow: hidden;
       background: var(--accent);
-      color: #0D0D0D;
+      color: #ffffff;
       border: none;
       width: 100%;
       padding: 17px 24px;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Outfit', sans-serif;
       font-size: 12px;
       font-weight: 600;
       letter-spacing: 2px;
@@ -170,7 +171,7 @@
       position: absolute;
       top: 0; left: 0;
       height: 100%; width: 0;
-      background: #0D0D0D;
+      background: #0f172a;
       transition: width 0.42s cubic-bezier(0.4, 0, 0.2, 1);
       z-index: 0;
     }
@@ -196,9 +197,43 @@
     .btn-submit:not(:disabled):hover .btn-icon {
       transform: translateX(4px);
     }
+
+    .btn-back {
+      position: fixed;
+      top: 24px;
+      left: 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: color 0.2s ease, gap 0.2s ease;
+      z-index: 10;
+    }
+
+    .btn-back:hover {
+      color: var(--text);
+      gap: 12px;
+    }
+
+    .btn-back span {
+      font-size: 16px;
+      transition: transform 0.2s ease;
+    }
+
+    .btn-back:hover span {
+      transform: translateX(-4px);
+    }
   </style>
 </head>
 <body>
+
+  <a href="index.html" class="btn-back">
+    <span>←</span> Voltar
+  </a>
 
   <main class="login-wrapper">
     <div class="login-card">

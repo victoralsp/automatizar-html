@@ -12,7 +12,7 @@ window.clientDataReady = (async function loadClientData() {
   bar.id = 'supabase-loading-bar';
   Object.assign(bar.style, {
     position: 'fixed', top: '0', left: '0', height: '3px',
-    width: '0%', background: '#D4A853',
+    width: '0%', background: '#3b82f6',
     transition: 'width 0.4s ease, opacity 0.4s ease',
     zIndex: '9999', pointerEvents: 'none'
   });
