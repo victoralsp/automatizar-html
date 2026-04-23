@@ -73,7 +73,8 @@ function loadFromLocalStorage() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  if (window.clientDataReady) await window.clientDataReady;
   populateClientSelect();
   loadFromLocalStorage();
   initModalDrag();
